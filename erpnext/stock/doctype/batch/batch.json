@@ -170,7 +170,7 @@
   },
   {
    "fieldname": "packaged_date",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "Packaged On Date"
   }
  ],
@@ -179,7 +179,7 @@
  "image_field": "image",
  "links": [],
  "max_attachments": 5,
- "modified": "2020-07-21 00:34:12.369023",
+ "modified": "2020-07-21 07:10:13.906100",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Batch",
