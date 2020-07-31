@@ -316,3 +316,11 @@ def get_batches(item_code, warehouse, qty=1, serial_no=None, as_dict=True):
 	)
 
 	return batches
+
+
+@frappe.whitelist()
+def save_thc_cbd(batch_no, thc, cbd):
+	doc = frappe.get_doc('Batch', batch_no)
+	doc.thc = thc
+	doc.cbd = cbd
+	doc.save()
