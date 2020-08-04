@@ -419,8 +419,7 @@
   {
    "fieldname": "jar_type",
    "fieldtype": "Data",
-   "hidden": 1,
-   "label": "Jar Type"
+   "label": "Jar Type (Flower Only)"
   },
   {
    "fieldname": "column_break_label",
@@ -434,8 +433,7 @@
   {
    "fieldname": "unwind_direction",
    "fieldtype": "Data",
-   "hidden": 1,
-   "label": "Unwind Direction"
+   "label": "Unwind Direction (Flower Only)"
   },
   {
    "fieldname": "label_qty",
@@ -446,7 +444,7 @@
  "idx": 1,
  "istable": 1,
  "links": [],
- "modified": "2020-07-30 03:01:31.179009",
+ "modified": "2020-08-04 04:58:39.294760",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Material Request Item",
