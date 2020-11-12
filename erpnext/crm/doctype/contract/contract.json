@@ -256,7 +256,8 @@
    "fieldname": "company",
    "fieldtype": "Link",
    "label": "Company",
-   "options": "Company"
+   "options": "Company",
+   "reqd": 1
   },
   {
    "fieldname": "party_address",
@@ -273,7 +274,7 @@
   }
  ],
  "is_submittable": 1,
- "modified": "2020-11-05 23:42:26.144864",
+ "modified": "2020-11-12 23:42:26.144864",
  "modified_by": "Administrator",
  "module": "CRM",
  "name": "Contract",
