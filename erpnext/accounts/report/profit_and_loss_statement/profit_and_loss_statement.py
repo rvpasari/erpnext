@@ -23,11 +23,24 @@ def execute(filters=None):
 		accumulated_values=filters.accumulated_values,
 		ignore_closing_entries=True, ignore_accumulated_values_for_fy=ignore_accumulated_values_for_fy)
 
-	net_profit_loss = get_net_profit_loss(income, expense, period_list, filters.company, filters.presentation_currency)
-
 	data = []
 	data.extend(income or [])
-	data.extend(expense or [])
+	data.append({})
+	gross_profit_loss = None
+	for expense_item in expense: 
+		data.append(expense_item)
+
+		#add gross profit line item on the PL statement
+		if expense_item.get("account_name") == "Total  Direct Expenses": 
+			gross_profit_loss = get_gross_profit_loss(income, expense_item, period_list, filters.company, filters.presentation_currency)
+			if gross_profit_loss: 
+				data.append(gross_profit_loss)
+				data.append({"is_group": 0})
+				data.append({"is_group": 0})
+				gross_profit_loss = None
+		
+	net_profit_loss = get_net_profit_loss(income, expense, period_list, filters.company, filters.presentation_currency)
+
 	if net_profit_loss:
 		data.append(net_profit_loss)
 
@@ -36,6 +49,44 @@ def execute(filters=None):
 	chart = get_chart_data(filters, columns, income, expense, net_profit_loss)
 
 	return columns, data, None, chart
+
+def get_gross_profit_loss(income, expense_item, period_list, company, currency=None, consolidated=False): 
+	"""
+	Add the summary line for gross profit in the profit and loss financial statement.
+
+	Args:
+		income (list of dict): Contains all the income account rows and summaries
+		expense (list of dict): Contains all the expense account rows and summaries
+		period_list (list): all the periods for which we have income and expense data
+		company (string): name of the company
+		currency (string, optional): Currency. Defaults to None.
+		consolidated (bool, optional): Whether the statements are consolidated or company-wise. Defaults to False.
+	"""
+	gross_total = 0
+	gross_profit_loss = {
+		"account_name": _("Gross Profit for the year"),
+		"account": _("Gross Profit for the year"),
+		"warn_if_negative": True,
+		"currency": currency or frappe.get_cached_value('Company',  company,  "default_currency")
+	}
+	has_value = False
+	total_direct_expense = expense_item
+
+	for period in period_list:
+		key = period if consolidated else period.key
+		total_income = flt(income[-2][key], 3) if income else 0
+		total_expense = flt(total_direct_expense[key],3) if expense_item else 0
+
+		gross_profit_loss[key] = total_income - total_expense
+		if gross_profit_loss[key]:
+			has_value = True
+
+		gross_total += flt(gross_profit_loss[key])
+		gross_profit_loss["total"] = gross_total
+
+	if has_value:
+		return gross_profit_loss
+
 
 def get_net_profit_loss(income, expense, period_list, company, currency=None, consolidated=False):
 	total = 0

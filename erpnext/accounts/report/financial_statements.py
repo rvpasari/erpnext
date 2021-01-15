@@ -266,8 +266,8 @@ def get_data(company, root_type, balance_must_be, period_list, filters=None,
 														balance_must_be, period_list, company_currency)
 
 	#remove rows with zero values and setting parent rows to none
-	out = filter_out_zero_value_rows(out, parent_accounts_with_nonzero_children)
-	out = nullify_parent_account_values(out, period_list)
+	#out = filter_out_zero_value_rows(out, parent_accounts_with_nonzero_children)
+	#out = nullify_parent_account_values(out, period_list)
 	return out
 
 def sort_accounts_by_key(data, key='lft'):
@@ -490,7 +490,7 @@ def generate_parent_account_totals(out, root_type, balance_must_be, period_list,
 					new_output.append(parent_to_append)
 
 		#add parent accounts to a list
-		if row.get("is_group", 0): 
+		if row.get("is_group", 0):
 			
 			#patch because some Chart of Accounts don't have account numbers
 			account_name = row.get("account_name")
