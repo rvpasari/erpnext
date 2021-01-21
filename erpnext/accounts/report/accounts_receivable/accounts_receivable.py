@@ -727,13 +727,9 @@ class ReceivablePayableReport(object):
 			self.add_column(_('{0} Name').format(self.party_type),
 				fieldname = scrub(self.party_type) + '_name', fieldtype='Data')
 
-		# if self.party_type == 'Customer':
-		# 	self.add_column(_("Customer Contact"), fieldname='customer_primary_contact',
-		# 		fieldtype='Link', options='Contact')
-
-		self.add_column(label=_('Voucher Type'), fieldname='voucher_type', fieldtype='Data', "hidden"=1)
+		self.add_column(label=_('Voucher Type'), fieldname='voucher_type', fieldtype='Data', hidden=1)
 		self.add_column(label=_('Voucher No'), fieldname='voucher_no', fieldtype='Dynamic Link',
-		 	options='voucher_type', width=180)
+			options='voucher_type', width=180)
 		self.add_column(label='Due Date', fieldtype='Date')
 
 		if self.party_type == "Supplier":
@@ -746,11 +742,6 @@ class ReceivablePayableReport(object):
 
 		self.add_column(_('Invoiced Amount'), fieldname='invoiced')
 		self.add_column(_('Paid Amount'), fieldname='paid')
-		# if self.party_type == "Customer":
-		# 	self.add_column(_('Credit Note'), fieldname='credit_note')
-		# else:
-		# 	# note: fieldname is still `credit_note`
-		# 	self.add_column(_('Debit Note'), fieldname='credit_note')
 		self.add_column(_('Outstanding Amount'), fieldname='outstanding')
 
 		self.setup_ageing_columns()
@@ -761,9 +752,6 @@ class ReceivablePayableReport(object):
 			self.add_column(label=_('Future Payment Ref'), fieldname='future_ref', fieldtype='Data')
 			self.add_column(label=_('Future Payment Amount'), fieldname='future_amount')
 			self.add_column(label=_('Remaining Balance'), fieldname='remaining_balance')
-
-		# if self.filters.party_type == 'Customer':
-		# 	self.add_column(label=_('Customer LPO'), fieldname='po_no', fieldtype='Data')
 
 			# comma separated list of linked delivery notes
 			if self.filters.show_delivery_notes:
@@ -779,9 +767,7 @@ class ReceivablePayableReport(object):
 			self.add_column(label=_('Supplier Group'), fieldname='supplier_group', fieldtype='Link',
 				options='Supplier Group')
 
-		# self.add_column(label=_('Remarks'), fieldname='remarks', fieldtype='Text', width=200)
-
-	def add_column(self, label, fieldname=None, fieldtype='Currency', options=None, width=120):
+	def add_column(self, label, fieldname=None, fieldtype='Currency', options=None, width=120, hidden=0):
 		if not fieldname: fieldname = scrub(label)
 		if fieldtype=='Currency': options='currency'
 		if fieldtype=='Date': width = 90
@@ -791,7 +777,8 @@ class ReceivablePayableReport(object):
 			fieldname=fieldname,
 			fieldtype=fieldtype,
 			options=options,
-			width=width
+			width=width,
+			hidden=hidden
 		))
 
 	def setup_ageing_columns(self):
