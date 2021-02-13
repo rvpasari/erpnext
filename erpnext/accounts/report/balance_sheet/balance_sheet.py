@@ -28,7 +28,7 @@ def execute(filters=None):
 	provisional_profit_loss, total_credit = get_provisional_profit_loss(asset, liability, equity,
 		period_list, filters.company, currency)
 
-	message, opening_balance, root_account = check_opening_balance(asset, liability, equity)
+	message, opening_balance = check_opening_balance(asset, liability, equity)
 
 	data = []
 	#add assets to the balance sheet report
@@ -39,19 +39,12 @@ def execute(filters=None):
 
 	#add provisional profit/loss and adjust equity totals if books are not closed
 	if len(equity) > 2 and provisional_profit_loss:
-		total_equity = equity[-2]
-		provisional_profit_loss["indent"] = total_equity.get("indent") + 1
-		equity.insert(-2, provisional_profit_loss) #add provisions to equity list
-		equity.pop()
-		for period in period_list:
-			if period.key in total_equity and period.key in provisional_profit_loss:
-				total_equity[period.key] = 0.0 if not total_equity[period.key] else total_equity[period.key]
-				total_equity[period.key] += provisional_profit_loss[period.key] #update equity account total for all periods
+		equity = append_provisions_to_equity(equity, provisional_profit_loss, period_list)
 		data.extend(equity or [])
 
 	#specific case when equity is completely empty but we still need to add
 	elif not equity and provisional_profit_loss:
-		equity = create_equity_provisions(provisional_profit_loss, period_list)
+		equity = create_equity_with_provisions(provisional_profit_loss, period_list)
 		data.extend(equity)
 
 	#add equity to the balance sheet report if there are no provisional profits/losses
@@ -82,9 +75,33 @@ def execute(filters=None):
 
 	return columns, data, message, chart
 
-def create_equity_provisions(provisional_profit_loss, period_list):
+def append_provisions_to_equity(equity, provisional_profit_loss, period_list):
 	"""
-	Adds line for provisional profit/loss if the equity account has no balance.
+	Adding provisions to the equity accounts when other equity accounts have non-zero values.
+
+	Args:
+		equity (list): dicts containing equity accounts and their periodic balances
+		provisional_profit_loss (dict): details of provisional profit / loss
+		period_list (list): list of periods for which the data needs to be processed
+
+	Returns:
+		dict: details of equity account containing provisional profits / loss
+	"""
+	total_equity = equity[-2]
+	provisional_profit_loss["indent"] = total_equity.get("indent") + 1
+	equity.insert(-2, provisional_profit_loss) #add provisions to equity list
+	equity.pop()
+	for period in period_list:
+		if period.key in total_equity and period.key in provisional_profit_loss:
+			total_equity[period.key] = 0.0 if not total_equity[period.key] else total_equity[period.key]
+			total_equity[period.key] += provisional_profit_loss[period.key] #update equity account total for all periods
+	return equity
+
+
+
+def create_equity_with_provisions(provisional_profit_loss, period_list):
+	"""
+	Adds line for provisional profit/loss if other equity accounts have zero balances.
 
 	Args:
 		provisional_profit_loss (dict): details of provisional profit / loss
@@ -102,7 +119,7 @@ def create_equity_provisions(provisional_profit_loss, period_list):
 		if period.key in provisional_profit_loss:
 			total_summary[period.key] = provisional_profit_loss[period.key]
 	equity.append(total_summary)
-	equity.append({})
+	equity.append({}) #blank line for better optics post adding the provisions to the equity summary
 	return equity
 
 def get_provisional_profit_loss(asset, liability, equity, period_list, company, currency=None, consolidated=False):
@@ -113,10 +130,10 @@ def get_provisional_profit_loss(asset, liability, equity, period_list, company, 
 		total = total_row_total=0
 		currency = currency or frappe.get_cached_value('Company',  company,  "default_currency")
 		total_row = {
-			"account_name": "'" + _("Total Liabilities and Equity") + "'",
-			"account": "'" + _("Total Liabilities and Equity") + "'",
+			"account_name": _("Total Liabilities and Equity"),
+			"account": _("Total Liabilities and Equity"),
 			"warn_if_negative": True,
-			"currency": currency,
+			"currency": currency
 		}
 		has_value = False
 
@@ -142,8 +159,8 @@ def get_provisional_profit_loss(asset, liability, equity, period_list, company, 
 
 		if has_value:
 			provisional_profit_loss.update({
-				"account_name": "'" + _("Provisional Profit / Loss (Credit)") + "'",
-				"account": "'" + _("Provisional Profit / Loss (Credit)") + "'",
+				"account_name": _("Provisional Profit / Loss (Credit)") ,
+				"account": _("Provisional Profit / Loss (Credit)"),
 				"warn_if_negative": True,
 				"currency": currency,
 				"total": None,
@@ -151,28 +168,25 @@ def get_provisional_profit_loss(asset, liability, equity, period_list, company, 
 				"has_value": True,
 				"opening_balance": -0.0,
 				"parent_account": "Equity"
-				})
+			})
 
 	return provisional_profit_loss, total_row
 
 def check_opening_balance(asset, liability, equity):
 	# Check if previous year balance sheet closed
-	opening_balance, root_account = 0, ""
+	opening_balance = 0
 	float_precision = cint(frappe.db.get_default("float_precision")) or 2
 	if asset:
 		opening_balance = flt(asset[0].get("opening_balance", 0), float_precision)
-		root_account = "Asset"
 	if liability:
 		opening_balance -= flt(liability[0].get("opening_balance", 0), float_precision)
-		root_account = "Liability"
 	if equity:
 		opening_balance -= flt(equity[0].get("opening_balance", 0), float_precision)
-		root_account = "Equity"
 
 	opening_balance = flt(opening_balance, float_precision)
 	if opening_balance:
-		return _("Previous Financial Year is not closed"),opening_balance, root_account
-	return None, None, None
+		return _("Previous Financial Year is not closed"), opening_balance
+	return None, None
 
 def get_chart_data(filters, columns, asset, liability, equity):
 	labels = [d.get("label") for d in columns[2:]]

@@ -17,13 +17,23 @@ def initialise_order_for():
 
 	if frappe.session.user in ("Guest", "Administrator"):
 		return
+
+	# Guard against customers set to order for which are removed after initializing
+	if order_for.get("customer_name") and not frappe.db.exists("Customer", order_for.get("customer_name")):
+		order_for.pop("customer_name", None)
+		order_for.pop("customer_primary_contact_name", None)
+
+	if not order_for.get("customer_name") and order_for.get("enabled"):
+		order_for.pop("enabled", None)
+
 	# Set default customer
 	if not order_for.get("customer_name") and frappe.session.user not in ("Guest", "Administrator"):
 		contact = frappe.get_doc("Contact", {"email_id": frappe.session.user})
 		customer_links = []
 		for link in contact.links:
-			if link.link_doctype == "Customer":
+			if link.link_doctype == "Customer" and frappe.db.exists(link.link_doctype, link.link_name):
 				customer_links.append(link)
+
 		if len(customer_links) == 1:
 			order_for["customer_name"] = customer_links[0].link_name
 			order_for["customer_primary_contact_name"] = contact.name

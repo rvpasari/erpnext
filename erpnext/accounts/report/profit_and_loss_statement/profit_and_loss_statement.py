@@ -6,6 +6,7 @@ import frappe
 from frappe import _
 from frappe.utils import flt
 from erpnext import get_default_company
+from erpnext.accounts.utils import get_company_default
 from erpnext.accounts.report.financial_statements import (get_period_list, get_columns, get_data)
 
 def execute(filters=None):
@@ -33,12 +34,14 @@ def execute(filters=None):
 	gross_profit_loss = None
 	direct_expense_account = frappe.get_value("Company", get_default_company(), "default_direct_expenses")
 	indirect_expense_account = frappe.get_value("Company", get_default_company(), "default_indirect_expenses")
+	company_abbr = get_company_default(get_default_company(), "abbr")
 	direct_expenses = None
+
 	for expense_item in expense:
 		data.append(expense_item)
 
-		#add gross profit line item on the PL statement
-		if expense_item.get("account_name") == "Total  "+direct_expense_account.split("-")[1].strip():
+		#add gross profit line item on the PL statement, company abbr needs to be added here for testing
+		if expense_item.get("group_account_summary", False) and "{0} - {1}".format(expense_item.get("account"), company_abbr) == direct_expense_account:
 			direct_expenses = expense_item
 			gross_profit_loss = get_profit_loss(income, expense_item, period_list, filters.company,
 									"Gross Profit", indent=1, is_group=0)
@@ -47,7 +50,7 @@ def execute(filters=None):
 				gross_profit_loss = None
 
 		#add the line for net operating income / loss
-		if expense_item.get("account_name") == "Total  "+indirect_expense_account.split("-")[1].strip():
+		if expense_item.get("group_account_summary", False) and "{0} - {1}".format(expense_item.get("account"), company_abbr) == indirect_expense_account:
 			operating_profit_loss = get_profit_loss(income, expense_item, period_list, filters.company,
 										"Net Operating Profit", indent=expense_item.get("indent"), is_group=0, direct_expenses=direct_expenses)
 			if operating_profit_loss:

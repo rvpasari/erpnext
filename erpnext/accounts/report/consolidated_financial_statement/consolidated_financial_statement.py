@@ -20,8 +20,7 @@ def execute(filters=None):
 	if not filters.get('company'):
 		return columns, data, message, chart
 
-	fiscal_year = get_fiscal_year_data(getdate(filters.get('from_date')).year, 
-					getdate(filters.get('to_date')).year)
+	fiscal_year = get_fiscal_year_data(filters.get('from_fiscal_year'), filters.get('to_fiscal_year'))
 	companies_column, companies = get_companies(filters)
 	columns = get_columns(companies_column)
 
@@ -193,9 +192,9 @@ def get_columns(companies):
 
 	return columns
 
-def get_data(companies, root_type, balance_must_be, 
-			fiscal_year, filters=None, ignore_closing_entries=False, cost_center_wise=False):
-	accounts, accounts_by_name = get_account_heads(root_type, companies, filters)
+def get_data(companies, root_type, balance_must_be, fiscal_year, filters=None, ignore_closing_entries=False, cost_center_wise=False):
+	accounts, accounts_by_name = get_account_heads(root_type,
+		companies, filters)
 
 	if not accounts: return []
 

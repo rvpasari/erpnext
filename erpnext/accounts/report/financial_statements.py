@@ -18,7 +18,6 @@ from frappe.utils import (flt, getdate, add_months, add_days, formatdate, get_la
 from six import itervalues
 from erpnext.accounts.doctype.accounting_dimension.accounting_dimension import get_accounting_dimensions, get_dimension_with_children
 
-non_zero_parent_accounts = {}
 def get_period_list(from_custom_date, to_custom_date, periodicity, accumulated_values=False,
 	company=None, reset_period_on_fy_change=True):
 	"""
@@ -235,9 +234,6 @@ def get_data(company, root_type, balance_must_be, period_list, filters=None,
 	if not accounts:
 		return None
 
-	# if root_type == "Equity":
-	# 	print("Equity accounts are: ", accounts)
-
 	#get list and map of parent/child accounts
 	accounts, accounts_by_name, parent_children_map = filter_accounts(accounts)
 	company_currency = get_appropriate_currency(company, filters)
@@ -269,7 +265,6 @@ def get_data(company, root_type, balance_must_be, period_list, filters=None,
 		out, parent_accounts_with_nonzero_children = generate_parent_account_totals(out, root_type,
 														balance_must_be, period_list, company_currency)
 
-	non_zero_parent_accounts = parent_accounts_with_nonzero_children
 	#remove rows with zero values and setting parent rows to none
 	out = filter_out_zero_value_rows(out, parent_accounts_with_nonzero_children)
 	out = nullify_parent_account_values(out, period_list)
@@ -484,13 +479,6 @@ def generate_parent_account_totals(out, root_type, balance_must_be, period_list,
 			row.update({
 				"is_group":0
 			})
-
-		#print(row.get("account_name"))
-		if row.get("account_name") == "650000 - Other Expenses":
-			print("................................")
-			print("Processing other expenses.....")
-			print(row)
-			print(parent_accounts[-1])
 
 		#patch for accounts cause lft and rgt branches are inconsistent, will delete once issues is resolved
 		while parent_accounts and (parent_accounts[-1].get("rgt") < row.get("rgt")):
