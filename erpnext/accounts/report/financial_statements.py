@@ -498,8 +498,9 @@ def generate_parent_account_totals(out, root_type, balance_must_be, period_list,
 
 			#we stack our parent accounts, pop them once all their child accounts have been totaled
 			total_parent_account = {
-				"account_name": _("Total {0}").format(_(account_summary)),
-				"account": _("{0}").format(_(row.get("account_name"))),
+				"account_name": _("Total {0}").format(account_summary),
+				"account": _("{0}").format(row.get("account_name")),
+				"_account": row.get("account", ""),
 				"lft": _(row.get('lft')),
 				"rgt": _(row.get('rgt')),
 				"has_value": False,

@@ -41,7 +41,8 @@ def execute(filters=None):
 		data.append(expense_item)
 
 		#add gross profit line item on the PL statement, company abbr needs to be added here for testing
-		if expense_item.get("group_account_summary", False) and "{0} - {1}".format(expense_item.get("account"), company_abbr) == direct_expense_account:
+		if expense_item.get("group_account_summary", False) and expense_item.get("_account") == direct_expense_account:
+			print("adding GPL line...")
 			direct_expenses = expense_item
 			gross_profit_loss = get_profit_loss(income, expense_item, period_list, filters.company,
 									"Gross Profit", indent=1, is_group=0)
@@ -50,7 +51,7 @@ def execute(filters=None):
 				gross_profit_loss = None
 
 		#add the line for net operating income / loss
-		if expense_item.get("group_account_summary", False) and "{0} - {1}".format(expense_item.get("account"), company_abbr) == indirect_expense_account:
+		if expense_item.get("group_account_summary", False) and expense_item.get("_account") == indirect_expense_account:
 			operating_profit_loss = get_profit_loss(income, expense_item, period_list, filters.company,
 										"Net Operating Profit", indent=expense_item.get("indent"), is_group=0, direct_expenses=direct_expenses)
 			if operating_profit_loss:
