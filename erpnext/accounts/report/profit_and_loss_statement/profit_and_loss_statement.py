@@ -40,9 +40,8 @@ def execute(filters=None):
 	for expense_item in expense:
 		data.append(expense_item)
 
-		#add gross profit line item on the PL statement, company abbr needs to be added here for testing
+		#add gross profit line item on the PL statement
 		if expense_item.get("group_account_summary", False) and expense_item.get("_account") == direct_expense_account:
-			print("adding GPL line...")
 			direct_expenses = expense_item
 			gross_profit_loss = get_profit_loss(income, expense_item, period_list, filters.company,
 									"Gross Profit", indent=1, is_group=0)
