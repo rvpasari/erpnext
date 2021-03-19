@@ -30,6 +30,9 @@ frappe.ui.form.on('Material Request', {
 		// add item, if previous view was item
 		erpnext.utils.add_item(frm);
 
+		//add coa batch and label details, if previous view was batch
+		erpnext.utils.add_coa_batch(frm);
+
 		// set schedule_date
 		set_schedule_date(frm);
 	},
@@ -108,6 +111,25 @@ frappe.ui.form.on('Material Request', {
 
 		if (frm.doc.docstatus == 1 && frm.doc.status == 'Stopped') {
 			frm.add_custom_button(__('Re-open'), () => frm.events.update_status(frm, 'Submitted'));
+		}
+	},
+
+	source_warehouse: function(frm) {
+		if (frm.doc.material_request_type == "Material Transfer"
+			&& frm.doc.source_warehouse) {
+			frm.doc.items.forEach(d => {
+				frappe.model.set_value(d.doctype, d.name,
+					"from_warehouse", frm.doc.source_warehouse);
+			});
+		}
+	},
+
+	target_warehouse: function(frm) {
+		if (frm.doc.target_warehouse) {
+			frm.doc.items.forEach(d => {
+				frappe.model.set_value(d.doctype, d.name,
+					"warehouse", frm.doc.target_warehouse);
+			});
 		}
 	},
 

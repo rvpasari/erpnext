@@ -188,6 +188,10 @@ class StockEntry(StockController):
 			if item.item_code not in stock_items:
 				frappe.throw(_("{0} is not a stock Item").format(item.item_code))
 
+			# Attaching BOM No. to line item sent to target warehouse
+			if item.t_warehouse and not item.bom_no:
+				item.bom_no = self.bom_no
+
 			item_details = self.get_item_details(frappe._dict(
 				{"item_code": item.item_code, "company": self.company,
 				"project": self.project, "uom": item.uom, 's_warehouse': item.s_warehouse}),
@@ -1379,14 +1383,20 @@ class StockEntry(StockController):
 			for item in self.items:
 				if item.package_tag and item.t_warehouse:
 					if frappe.db.get_value("Item", item.item_code, "requires_lab_tests"):
-						frappe.db.set_value("Package Tag", item.package_tag, "coa_batch_no", item.batch_no)
+						frappe.db.set_value("Package Tag", item.package_tag, "batch_no", item.batch_no)
 					else:
+						frappe.db.set_value("Package Tag", item.package_tag, "batch_no", item.batch_no)
+						#coa batch of source and finished item is the same
 						coa_batch_no = frappe.db.get_value("Package Tag", source_item.package_tag, "coa_batch_no")
 						frappe.db.set_value("Package Tag", item.package_tag, "coa_batch_no", coa_batch_no)
 						item.update({"coa_batch_no" : coa_batch_no})
 
-					if frappe.db.exists("Package Tag", {"name": item.package_tag, "item_code": ""}):
+					#if empty - then assign. If not empty - throw an error.
+					if frappe.db.exists("Package Tag", {"name": item.package_tag}) and not frappe.get_value("Package Tag", item.package_tag, "item_code"):
 						frappe.db.set_value("Package Tag", item.package_tag, "item_code", item.item_code)
+					else:
+						frappe.throw(_("Do not assign new item code to an existing package tag."))
+
 
 @frappe.whitelist()
 def move_sample_to_retention_warehouse(company, items):
@@ -1471,7 +1481,8 @@ def get_work_order_details(work_order, company):
 		"use_multi_level_bom": work_order.use_multi_level_bom,
 		"wip_warehouse": work_order.wip_warehouse,
 		"fg_warehouse": work_order.fg_warehouse,
-		"fg_completed_qty": pending_qty_to_produce
+		"fg_completed_qty": pending_qty_to_produce,
+		"manufacturing_type": work_order.manufacturing_type
 	}
 
 def get_operating_cost_per_unit(work_order=None, bom_no=None):
@@ -1652,3 +1663,31 @@ def raw_material_update_on_bom():
 		if value.get("raw_material") and value.get("finished_good"):
 			avg_manufactured_qty = value.get("finished_good") / value.get("raw_material")
 			frappe.db.set_value("BOM", bom, "avg_manufactured_qty", avg_manufactured_qty)
+
+@frappe.whitelist()
+def make_stock_entry_from_batch(source_name, target_doc=None):
+	"""
+	Creates Stock Entry from Batch.
+	Args:
+		source_name (string): name of the doc from which Stock Entry is to be created
+		target_doc (list, optional): target document to be created. Defaults to None.
+	Returns:
+		target_doc: Created Stock Entry Document
+	"""
+	batch_fields = frappe.get_value("Batch", source_name, ["item", "item_name"], as_dict=1)
+
+	target_doc = get_mapped_doc("Batch", source_name, {
+		"Batch": {
+			"doctype": "Stock Entry"
+		},
+	}, target_doc)
+
+	# add line item to Stock Entry document
+	target_doc.append("items", {
+		"item_code": batch_fields.item,
+		"item_name": batch_fields.item_name,
+		"batch_no": source_name
+		})
+	target_doc.run_method("set_missing_values")
+
+	return target_doc
