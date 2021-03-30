@@ -499,7 +499,6 @@ class SalesOrder(SellingController):
 				"ivt_id": item.get("ivt_id", ""), #change to ivt_id
 				"coa_id": item.batch_no,
 				"external_item_code": item.item_code,
-				#add sales order item name/id
 				"unit_quantity": item.qty,
 				"unit_price": item.rate
 				}

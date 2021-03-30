@@ -148,8 +148,7 @@
   "hub_warehouse",
   "synced_with_hub",
   "flowkana_details_section",
-  "ivt_id",
-  "case_size"
+  "ivt_id"
  ],
  "fields": [
   {
@@ -1128,11 +1127,6 @@
    "fieldname": "ivt_id",
    "fieldtype": "Data",
    "label": "Inventory ID"
-  },
-  {
-   "fieldname": "case_size",
-   "fieldtype": "Data",
-   "label": "Case Size"
   }
  ],
  "has_web_view": 1,
@@ -1140,7 +1134,7 @@
  "idx": 2,
  "image_field": "image",
  "max_attachments": 1,
- "modified": "2021-03-29 19:33:20.629872",
+ "modified": "2021-03-30 00:55:05.858803",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Item",
