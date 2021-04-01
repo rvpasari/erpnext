@@ -193,12 +193,8 @@ class SalesOrder(SellingController):
 
 		flowkana_settings = frappe.get_doc("Flowkana Settings")
 
-		print("Flowkana settings: ", flowkana_settings.enable_flowkana)
-		print("Fulfillment Partner: ", self.fulfillment_partner)
-
 		#flowkana
 		if flowkana_settings.enable_flowkana and self.fulfillment_partner == "Flowkana":
-			print("sending request to flowkana endpoint....")
 			self.send_delivery_request_to_flowkana()
 
 	def on_cancel(self):
@@ -494,12 +490,12 @@ class SalesOrder(SellingController):
 		#create line items
 		item_list = []
 		for item in self.items:
+			ivt_id = frappe.get_value("Item", item.item_code, "ivt_id")
 			line_item = {
 				"attributes": {
-				"ivt_id": item.get("ivt_id", ""), #change to ivt_id
+				"ivt_id": ivt_id,
 				"coa_id": item.batch_no,
 				"external_item_code": item.item_code,
-				#add sales order item name/id
 				"unit_quantity": item.qty,
 				"unit_price": item.rate
 				}
@@ -553,8 +549,14 @@ class SalesOrder(SellingController):
 			headers=headers,
 			json=request_json)
 
+		response_data = response.json()
+
+		if "errors" in response_data:
+			frappe.throw(_("The response has the following errors: {0}".format(response_data.get("errors"),"")))
+			return
+
 		#mark integration request status as queued, update status to queued
-		integration_request.output = json.dumps(response.json(), default=json_handler)
+		integration_request.output = json.dumps(response_data, default=json_handler)
 		integration_request.save(ignore_permissions=True)
 
 
@@ -1345,18 +1347,18 @@ def create_muliple_production_plans(orders):
 @frappe.whitelist()
 def get_customer_item_ref_code(item, customer_name):
     """Fetch the Customer Item Code for the given Item.
-    
+
     Args:
-        item (varchar) : Item Code for the Sales Item 
+        item (varchar) : Item Code for the Sales Item
         customer_name (varchar) : Customer Name Of Sales Order
 
     Returns:
         Customer Item Code (varchar) : Returns the Customer Item Reference Code
-    """  	
+    """
     customer_names = frappe.get_all("Item Customer Detail", filters={
         "parent": item,
         "customer_name": customer_name
-    }, fields=["ref_code"])    	
+    }, fields=["ref_code"])
 
     if customer_names:
         return customer_names[0].ref_code

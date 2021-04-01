@@ -6,7 +6,8 @@
  "engine": "InnoDB",
  "field_order": [
   "partner_name",
-  "enable"
+  "enable",
+  "partner_description"
  ],
  "fields": [
   {
@@ -20,9 +21,14 @@
    "fieldtype": "Data",
    "label": "Partner Name",
    "unique": 1
+  },
+  {
+   "fieldname": "partner_description",
+   "fieldtype": "Text",
+   "label": "Partner Description"
   }
  ],
- "modified": "2021-03-19 04:05:27.925753",
+ "modified": "2021-04-01 02:15:37.504612",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Fulfillment Partner",
