@@ -193,9 +193,6 @@ class SalesOrder(SellingController):
 
 		flowkana_settings = frappe.get_doc("Flowkana Settings")
 
-		print("Flowkana settings: ", flowkana_settings.enable_flowkana)
-		print("Fulfillment Partner: ", self.fulfillment_partner)
-
 		#flowkana
 		if flowkana_settings.enable_flowkana and self.fulfillment_partner == "Flowkana":
 			print("sending request to flowkana endpoint....")
@@ -494,9 +491,10 @@ class SalesOrder(SellingController):
 		#create line items
 		item_list = []
 		for item in self.items:
+			ivt_id = frappe.get_value("Item", item.item_code, "ivt_id")
 			line_item = {
 				"attributes": {
-				"ivt_id": item.get("ivt_id", ""), #change to ivt_id
+				"ivt_id": ivt_id, #change to ivt_id
 				"coa_id": item.batch_no,
 				"external_item_code": item.item_code,
 				"unit_quantity": item.qty,
@@ -520,7 +518,7 @@ class SalesOrder(SellingController):
 					}
 				}
 			}
-
+		print("Request JSON: ", request_json)
 		#create integration request
 		integration_request = frappe.new_doc("Integration Request")
 		integration_request.update({
@@ -551,9 +549,14 @@ class SalesOrder(SellingController):
 			flowkana_settings.get("url_tab"),
 			headers=headers,
 			json=request_json)
+		response_data = response.json()
+
+		if "errors" in response_data:
+			frappe.throw(_("The response has the following errors: {0}".format(response_data.get("errors"),"")))
+			return
 
 		#mark integration request status as queued, update status to queued
-		integration_request.output = json.dumps(response.json(), default=json_handler)
+		integration_request.output = json.dumps(response_data, default=json_handler)
 		integration_request.save(ignore_permissions=True)
 
 
