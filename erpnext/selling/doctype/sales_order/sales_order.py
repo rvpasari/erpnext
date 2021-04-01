@@ -20,6 +20,7 @@ from erpnext.controllers.selling_controller import SellingController
 from frappe.automation.doctype.auto_repeat.auto_repeat import get_next_schedule_date
 from erpnext.selling.doctype.customer.customer import check_credit_limit
 from erpnext.stock.doctype.item.item import get_item_defaults
+from erpnext.erpnext_integrations.doctype.flowkana_settings.flowkana_settings import send_delivery_request_to_flowkana
 from erpnext.setup.doctype.item_group.item_group import get_item_group_defaults
 from erpnext.manufacturing.doctype.production_plan.production_plan import get_items_for_material_requests
 from erpnext.accounts.doctype.sales_invoice.sales_invoice import validate_inter_company_party, update_linked_doc,\
@@ -191,12 +192,12 @@ class SalesOrder(SellingController):
 			from erpnext.accounts.doctype.pricing_rule.utils import update_coupon_code_count
 			update_coupon_code_count(self.coupon_code,'used')
 
-		flowkana_settings = frappe.get_doc("Flowkana Settings")
+		flowkana_settings = frappe.get_cached_doc("Flowkana Settings")
 
-		#flowkana
+		#send delivery request to flowkana if enabled by user
 		if flowkana_settings.enable_flowkana and self.fulfillment_partner == "Flowkana":
-			print("sending request to flowkana endpoint....")
-			self.send_delivery_request_to_flowkana()
+			send_delivery_request_to_flowkana(self)
+
 
 	def on_cancel(self):
 		super(SalesOrder, self).on_cancel()
@@ -483,86 +484,6 @@ class SalesOrder(SellingController):
 				frappe.throw(_("Cannot ensure delivery by Serial No as \
 				Item {0} is added with and without Ensure Delivery by \
 				Serial No.").format(item.item_code))
-
-	def send_delivery_request_to_flowkana(self):
-		"""
-		Ping flowkana with sales order details and map response to an integration request.
-		"""
-		#create line items
-		item_list = []
-		for item in self.items:
-			ivt_id = frappe.get_value("Item", item.item_code, "ivt_id")
-			line_item = {
-				"attributes": {
-				"ivt_id": ivt_id, #change to ivt_id
-				"coa_id": item.batch_no,
-				"external_item_code": item.item_code,
-				"unit_quantity": item.qty,
-				"unit_price": item.rate
-				}
-			}
-			item_list.append(line_item)
-
-		#prepare response json
-		request_json = {
-				"data": {
-					"attributes": {
-						"external_order_id": self.name,
-						"customer_name": self.customer,
-						"customer_license": self.license,
-						"delivery_date": self.delivery_date,
-						"note": "Test Note"
-					},
-					"relationships": {
-						"order_line_items": item_list
-					}
-				}
-			}
-		print("Request JSON: ", request_json)
-		#create integration request
-		integration_request = frappe.new_doc("Integration Request")
-		integration_request.update({
-			"integration_type": "Host",
-			"integration_request_service": "Flowkana",
-			"status": "Queued",
-			"data": json.dumps(request_json, default=json_handler),
-			"reference_doctype": "Sales Order",
-			"reference_docname": self.name
-		})
-		integration_request.insert()
-
-		#fetch and prepare headers from flowkana settings, flag error if missing data
-		flowkana_settings = frappe.get_doc("Flowkana Settings")
-		if not flowkana_settings.get("url_tab"):
-			frappe.throw(_("Please provide an endpoint to send data to."))
-		if not flowkana_settings.get("api_key", 0.0):
-			frappe.throw(_("Please enter API Key in flowkana settings."))
-		if not flowkana_settings.get("api_value", 0.0):
-			frappe.throw(_("Please enter API Value in flowkana settings."))
-
-		headers = {
-			flowkana_settings.get("api_key"): flowkana_settings.get("api_value")
-		}
-
-		#ping flowkana with requisite headers and data
-		response = requests.post(
-			flowkana_settings.get("url_tab"),
-			headers=headers,
-			json=request_json)
-		response_data = response.json()
-
-		if "errors" in response_data:
-			frappe.throw(_("The response has the following errors: {0}".format(response_data.get("errors"),"")))
-			return
-
-		#mark integration request status as queued, update status to queued
-		integration_request.output = json.dumps(response_data, default=json_handler)
-		integration_request.save(ignore_permissions=True)
-
-
-def json_handler(obj):
-	if isinstance(obj, (datetime.date, datetime.timedelta, datetime.datetime)):
-		return text_type(obj)
 
 def get_list_context(context=None):
 	from erpnext.controllers.website_list_for_contact import get_list_context
