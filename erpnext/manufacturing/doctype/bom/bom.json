@@ -272,13 +272,13 @@
    "collapsible": 1,
    "fieldname": "scrap_section",
    "fieldtype": "Section Break",
-   "label": "Scrap"
+   "label": "By Products"
   },
   {
-   "description": "Scrap calculation for 1 (Unit/Gram/Nos) is (Qty = BOM qty / percentage of loss)",
+   "description": "Please list your by-products and scrap items in this section. If there are any backflush items (raw materials not used during production), you can enter them in the final stock entry of this manufacturing cycle.\n\nEnsure the value of by-products or scrap in this section is a nominal value based on the amount of finished goods produced.",
    "fieldname": "scrap_items",
    "fieldtype": "Table",
-   "label": "Scrap Items",
+   "label": "By Product Items",
    "options": "BOM Scrap Item"
   },
   {
@@ -531,7 +531,7 @@
  "idx": 1,
  "image_field": "image",
  "is_submittable": 1,
- "modified": "2021-01-28 03:02:32.714648",
+ "modified": "2021-04-05 19:26:22.066603",
  "modified_by": "Administrator",
  "module": "Manufacturing",
  "name": "BOM",
