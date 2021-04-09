@@ -372,15 +372,22 @@ class StockEntry(StockController):
 					+ self.work_order + ":" + ", ".join(other_ste), DuplicateEntryForWorkOrderError)
 
 	def set_incoming_rate(self):
+		"""
+		Assign rates for incoming items in the stock entry.
+		"""
 		if self.purpose == "Repack":
 			self.set_basic_rate_for_finished_goods()
 
 		for d in self.items:
+
+			#assign incoming rate based on valuation method in system to the basic rate of the Raw Material.
 			if d.s_warehouse:
 				args = self.get_args_for_incoming_rate(d)
 				d.basic_rate = get_incoming_rate(args)
+			#assign a zero value if no source warehouse is defined.
 			elif d.allow_zero_valuation_rate and not d.s_warehouse:
 				d.basic_rate = 0.0
+			#assign basic rates to items which have target warehouses assigned
 			elif d.t_warehouse and not d.basic_rate:
 				d.basic_rate = get_valuation_rate(d.item_code, d.t_warehouse,
 					self.doctype, self.name, d.allow_zero_valuation_rate,
@@ -449,10 +456,13 @@ class StockEntry(StockController):
 		fg_basic_rate = 0.0
 
 		for d in self.get('items'):
-			if d.t_warehouse: fg_basic_rate = flt(d.basic_rate)
+
+			#get basic rate for finished goods
+			if d.t_warehouse:
+				fg_basic_rate = flt(d.basic_rate)
 			args = self.get_args_for_incoming_rate(d)
 
-			# get basic rate
+			#fetch basic rate if bom_no is not assigned
 			if not d.bom_no:
 				if (not flt(d.basic_rate) and not d.allow_zero_valuation_rate) or d.s_warehouse or force:
 					basic_rate = flt(get_incoming_rate(args, raise_error_if_no_rate), self.precision("basic_rate", d))
@@ -460,10 +470,12 @@ class StockEntry(StockController):
 						d.basic_rate = basic_rate
 
 				d.basic_amount = flt(flt(d.transfer_qty) * flt(d.basic_rate), d.precision("basic_amount"))
+
+				#add amount to raw_material_cost if no target warehouse is set
 				if not d.t_warehouse:
 					raw_material_cost += flt(d.basic_amount)
 
-			# get scrap items basic rate
+			#fetch basic rate for scrap items (only happens if scrap warehouse is set)
 			if d.bom_no:
 				if not flt(d.basic_rate) and not d.allow_zero_valuation_rate and \
 					getattr(self, "pro_doc", frappe._dict()).scrap_warehouse == d.t_warehouse:
@@ -477,6 +489,7 @@ class StockEntry(StockController):
 
 					scrap_material_cost += flt(d.basic_amount)
 
+		#calculate no of finished good items - this is wrong because it includes scrap
 		number_of_fg_items = len([t.t_warehouse for t in self.get("items") if t.t_warehouse])
 		if (fg_basic_rate == 0.0 and number_of_fg_items == 1) or update_finished_item_rate:
 			self.set_basic_rate_for_finished_goods(raw_material_cost, scrap_material_cost)
@@ -496,11 +509,22 @@ class StockEntry(StockController):
 		})
 
 	def set_basic_rate_for_finished_goods(self, raw_material_cost=0, scrap_material_cost=0):
+		"""
+		Assign basic rate and basic amount to items with a target warehouse.
+
+		Args:
+			raw_material_cost (int, optional): The cost of the raw material. Defaults to 0.
+			scrap_material_cost (int, optional): The value of the scrap. Defaults to 0.
+		"""
 		total_fg_qty = 0
 		if not raw_material_cost and self.get("items"):
+
+			#fetch raw material cost for each item with a source warehouse
 			raw_material_cost = sum([flt(row.basic_amount) for row in self.items
 				if row.s_warehouse and not row.t_warehouse])
 
+			#get total finished goods quatity (check if there is a target warehouse assigned)
+			#we should add a check for is_scrap_item and ignore if it is a scrap item
 			total_fg_qty = sum([flt(row.qty) for row in self.items
 				if row.t_warehouse and not row.s_warehouse])
 
@@ -514,6 +538,7 @@ class StockEntry(StockController):
 						bom_items = self.get_bom_raw_materials(d.transfer_qty)
 						raw_material_cost = sum([flt(row.qty)*flt(row.rate) for row in bom_items.values()])
 
+					#set basic rate and basic amount (Total of basic rate) for goods when material consumption is disabled
 					if raw_material_cost and self.purpose == "Manufacture":
 						d.basic_rate = flt((raw_material_cost - scrap_material_cost) / flt(d.transfer_qty), d.precision("basic_rate"))
 						d.basic_amount = flt((raw_material_cost - scrap_material_cost), d.precision("basic_amount"))
@@ -522,20 +547,29 @@ class StockEntry(StockController):
 						d.basic_amount = d.basic_rate * d.qty
 
 	def distribute_additional_costs(self):
+		"""
+		Distribute additional costs between finished goods based on their total basic amounts.
+		"""
 		if self.purpose == "Material Issue":
 			self.additional_costs = []
 
+		#get totals of additional cost and basic amount of all items
 		self.total_additional_costs = sum([flt(t.amount) for t in self.get("additional_costs")])
 		total_basic_amount = sum([flt(t.basic_amount) for t in self.get("items") if t.t_warehouse])
 
 		for d in self.get("items"):
+			#divide additional costs by percentage of basic amount for each item in total amount
 			if d.t_warehouse and total_basic_amount:
 				d.additional_cost = (flt(d.basic_amount) / total_basic_amount) * self.total_additional_costs
 			else:
 				d.additional_cost = 0
 
 	def update_valuation_rate(self):
+		"""
+		Update the valuation rate for each line item in the stock entry that has a transfer quantity.
+		"""
 		for d in self.get("items"):
+
 			if d.transfer_qty:
 				d.amount = flt(flt(d.basic_amount) + flt(d.additional_cost), d.precision("amount"))
 				d.valuation_rate = flt(flt(d.basic_rate) + (flt(d.additional_cost) / flt(d.transfer_qty)),
@@ -557,6 +591,9 @@ class StockEntry(StockController):
 			self.total_amount = sum([flt(item.amount) for item in self.get("items")])
 
 	def set_stock_entry_type(self):
+		"""
+		Copy value of purpose to stock_entry_type data field.
+		"""
 		if self.purpose:
 			self.stock_entry_type = frappe.get_cached_value('Stock Entry Type',
 				{'purpose': self.purpose}, 'purpose')
