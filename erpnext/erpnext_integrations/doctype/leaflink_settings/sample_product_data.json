@@ -1,0 +1,4179 @@
+{
+    "count": 184,
+    "next": "https://www.leaflink.com/api/v2/products/?limit=50&offset=50",
+    "previous": null,
+    "results": [
+        {
+            "id": 393874,
+            "created_on": "2020-07-14T20:09:15.097233-06:00",
+            "last_edit": "2020-07-14T20:14:09.641391-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "707 OG | THC: 16.7%  CBD: 0.03%",
+            "sku": "449081afcf0dc6c8ae00",
+            "description": "Be still with the moonlight. Indica strains from Humboldt Farms will help relax the body and calm the mind as you find stillness after a long day. Sun-ripened and organically grown on small family farms in Humboldt County, premium flowers from Humboldt Farms are in a class of their own. The hand-selected buds dazzle the senses and offer maximum potency due to their cultivation of cutting edge strains with robust genetics. Humboldt Farms’ exceptional Premium Flower tastes delicious both on the inhale and exhale, with crystals that glisten and bouquets that fill the room. Weight ⅛ oz.",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Premium Indica Flower - 707 OG | THC: 16.7%  CBD: 0.03%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 16.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "1.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222615,
+                "name": "Premium Indica Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9618,
+            "manufacturer": 7909,
+            "strain_classification": "indica",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                2084
+            ],
+            "price_schedule_price": {
+                "amount": 16.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Indica",
+            "modified": "2020-07-14T20:09:15.097259-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 393877,
+            "created_on": "2020-07-14T20:15:25.190893-06:00",
+            "last_edit": "2020-11-09T14:39:27.450849-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "707 OG | THC: 16.7% CBD 0.03%",
+            "sku": "43bc99da4bdd680cfb69",
+            "description": "<p></p><p></p><h1><span style=\"\"><span style=\"\">Be still with the moonlight. Indica strains from Humboldt Farms will help relax the body and calm the mind as you find stillness after a long day. Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California. Weight ⅛ oz.</span></span></h1>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Indica Flower - 707 OG | THC: 16.7% CBD 0.03%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222710,
+                "name": "Classic Indica Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "indica",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                129
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Indica",
+            "modified": "2020-08-17T14:16:19.599762-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 566176,
+            "created_on": "2021-03-05T15:54:34.961331-07:00",
+            "last_edit": "2021-04-02T13:25:18.344892-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Apple Pie, Classic Sativa Flower, Eighth",
+            "sku": "4a438388c45c447e644a",
+            "description": "<p>This powerful sativa is as fierce as it is fruity. It is known to make the mind soar with just enough of a body high to keep you from floating away. You may want to start with a small portion before going for seconds. </p><p>Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Weight ⅛ oz.<br></p>",
+            "quantity": "1074.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Apple Pie, Classic Sativa Flower, Eighth",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 26.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 324.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 282.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": 3,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 1074.0,
+            "children_count": 0,
+            "strains": [
+                4791
+            ],
+            "price_schedule_price": {
+                "amount": 324.0,
+                "currency": "USD"
+            },
+            "image_count": 1,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2021-04-02T12:57:57.561767-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 12.962962962962964,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 534277,
+            "created_on": "2021-01-27T13:40:58.991906-07:00",
+            "last_edit": "2021-03-05T16:32:06.227044-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Apple Pie | THC: 18.4% CBD: 0.06%",
+            "sku": "40c7ad02f4970874b3ae",
+            "description": "<h1><span style=\"\"><span style=\"\">Illuminate with the sunrise. Sativa strains from Humboldt Farms awaken the mind and invigorate your senses, making them a perfect choice for boosting creativity and productivity throughout your day. Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California. Weight ⅛ oz.</span></span></h1>",
+            "quantity": "2491.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Sativa Flower - Apple Pie | THC: 18.4% CBD: 0.06%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 11.75,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222701,
+                "name": "Classic Sativa Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                186
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2021-01-27T13:40:58.991935-07:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 16.071428571428573,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 573810,
+            "created_on": "2021-03-15T19:30:17.743089-06:00",
+            "last_edit": "2021-04-12T11:41:24.459555-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Banana Sherbet, Hybrid Live Resin, 1 gram",
+            "sku": "42dabf8a9a72af4a6c5e",
+            "description": "<p style=\"\"><span style=\"\">Call me Mellow Yellow with this Banana Kush and Sunset Sherbet cross. This bud tastes as sweet as its tropical scent and is said to be a good strain for socializing. It can lead to cool conversations, creativity, and a good mood.</span><br></p><p style=\"\"><span><span style=\"\">Cannabis is frozen immediately after harvest, “freezing” the cannabinoids before they degrade. The flavor and aroma of the final product is unmatched, as are the effects. </span></span></p>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Banana Sherbet, Hybrid Live Resin, 1 gram",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 36.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 432.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 402.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": "Our Newest Live Resin || 75.5% THC | 0.14% CBD",
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Unavailable",
+            "display_listing_state": "Unavailable",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 5,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9635,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0.0,
+            "children_count": 0,
+            "strains": [
+                2906
+            ],
+            "price_schedule_price": {
+                "amount": 432.0,
+                "currency": "USD"
+            },
+            "image_count": 3,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": [],
+            "strain_classification_display": "Hybrid",
+            "modified": "2021-04-12T07:38:15.213547-06:00",
+            "sub_category": 55,
+            "has_deals_eligible_children": false,
+            "discount_percent": 6.944444444444445,
+            "base_units_per_unit": "1.000000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 314867,
+            "created_on": "2020-03-04T17:00:53.535841-07:00",
+            "last_edit": "2020-03-24T13:43:48.830204-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Banana Split @THC: 15.9%CBD: 0.04%",
+            "sku": "430f98a9136632fdd5a4",
+            "description": "<h1><span style=\"\"><span style=\"\">Illuminate with the sunrise. Sativa strains from Humboldt Farms awaken the mind and invigorate your senses, making them a perfect choice for boosting creativity and productivity throughout your day. Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California. Weight ⅛ oz.</span></span></h1>",
+            "quantity": "0.0000",
+            "reserved_qty": "48.0000",
+            "display_name": "Classic Sativa Flower - Banana Split @THC: 15.9%CBD: 0.04%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222701,
+                "name": "Classic Sativa Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 4,
+                "value": "0.12500",
+                "name": "Eight",
+                "label": "1/8"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                186
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2020-03-24T13:43:48.840995-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 328457,
+            "created_on": "2020-03-24T13:48:59.153122-06:00",
+            "last_edit": "2020-07-24T14:22:09.568339-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Banana Split @ THC:  23.2%CBD: 0.02%",
+            "sku": "40b09b939ca83aa552ca",
+            "description": "Sun-ripened and organically grown on small family farms in Humboldt County, Humboldt Farms' Premium Flower is in a class of its own. The hand-selected flowers dazzle the senses and offer maximum potency due to Humboldt Farms' cultivation of cutting edge strains with robust genetics. Experience the highest. 1/8 oz.",
+            "quantity": "0.0000",
+            "reserved_qty": "24.0000",
+            "display_name": "Premium Sativa Flower - Banana Split @ THC:  23.2%CBD: 0.02%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222671,
+                "name": "Premium Sativa Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 4,
+                "value": "0.12500",
+                "name": "Eight",
+                "label": "1/8"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9618,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                1560
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2020-07-12T11:56:30.094527-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 566298,
+            "created_on": "2021-03-05T18:08:47.966441-07:00",
+            "last_edit": "2021-04-09T14:57:10.234368-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Biscotti, Premium Hybrid Flower, Eighth",
+            "sku": "4d8ca1122b6c41645a21",
+            "description": "<p style=\"\"><span style=\"\">This Gelato x GSC x GG #4 cross is an exceptionally rare and potent strain, with a flavor profile reminiscent of sugar cookies and fresh-baked spice cake. It offers a relaxed and happy high, with pain relieving possibilities.</span></p><p style=\"\">Sun-ripened and organically grown on small family farms in Humboldt County, Humboldt Farms' Premium Flower is in a class of its own. The hand-selected flowers dazzle the senses and offer maximum potency due to Humboldt Farms' cultivation of cutting edge strains with robust genetics. Experience the highest. 1/8 oz. </p><p><span style=\"\"></span><br></p>",
+            "quantity": "3168.0000",
+            "reserved_qty": "96.0000",
+            "display_name": "Biscotti, Premium Hybrid Flower, Eighth",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 30.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 360.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 300.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Available",
+            "display_listing_state": "Available",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": 3,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9618,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 3072.0,
+            "children_count": 0,
+            "strains": [
+                9419
+            ],
+            "price_schedule_price": {
+                "amount": 360.0,
+                "currency": "USD"
+            },
+            "image_count": 4,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Hybrid",
+            "modified": "2021-04-12T11:12:34.137653-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 16.666666666666668,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 584231,
+            "created_on": "2021-03-25T14:35:46.728089-06:00",
+            "last_edit": "2021-04-09T14:57:39.690610-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Blueberry Frosting, Indica Live Resin, 1 gram",
+            "sku": "435099af5d35738d1dae",
+            "description": "<p>Could it get any better? This sweet and creamy cross of Blueberry Muffin and Vanilla Frosting is the perfect dreamy delight -- without the couch-lock. It offers a balanced head and body high with an unbeatable aroma and equally delicious flavor.<br></p><p>Cannabis is frozen immediately after harvest, “freezing” the cannabinoids before they degrade. The flavor and aroma of the final product is unmatched, as are the effects.<br></p>",
+            "quantity": "3360.0000",
+            "reserved_qty": "48.0000",
+            "display_name": "Blueberry Frosting, Indica Live Resin, 1 gram",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 36.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 432.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 402.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Available",
+            "display_listing_state": "Available",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 5,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9635,
+            "manufacturer": 7909,
+            "strain_classification": "indica",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 3312.0,
+            "children_count": 0,
+            "strains": [
+                13244
+            ],
+            "price_schedule_price": {
+                "amount": 432.0,
+                "currency": "USD"
+            },
+            "image_count": 3,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": [],
+            "strain_classification_display": "Indica",
+            "modified": "2021-04-12T11:12:34.201451-06:00",
+            "sub_category": 55,
+            "has_deals_eligible_children": false,
+            "discount_percent": 6.944444444444445,
+            "base_units_per_unit": "1.000000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 393867,
+            "created_on": "2020-07-14T19:38:31.672839-06:00",
+            "last_edit": "2021-03-10T15:45:51.940711-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Blueberry Muffin THC: 83.1% CBD: 0.04%",
+            "sku": "444aab2abc1edddac0eb",
+            "description": "<p></p><p><span style=\"\">We view the process of creating our premium live resin as a true art form. Cannabis is frozen immediately after harvest, “freezing” the cannabinoids before they degrade. The flavor and aroma of the final product is unmatched, as are the effects.</span></p>",
+            "quantity": "1008.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Hybrid Live Resin - Blueberry Muffin THC: 83.1% CBD: 0.04%",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 16.75,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 226873,
+                "name": "Hybrid Live Resin"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Gram",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 5,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9635,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [],
+            "price_schedule_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Hybrid",
+            "modified": "2021-02-12T16:10:34.390017-07:00",
+            "sub_category": 55,
+            "has_deals_eligible_children": false,
+            "discount_percent": 6.944444444444445,
+            "base_units_per_unit": "1.000000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 393489,
+            "created_on": "2020-07-14T11:28:38.070980-06:00",
+            "last_edit": "2021-03-10T15:50:33.728562-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Blue Cookies 4Pack THC: 16.4%CBD: 0.04%",
+            "sku": "4eec99141864368b2f09",
+            "description": "<p><span style=\"\"><span style=\"\">Our incredible prerolls come in a handy, reusable tin that fits easily in your pocket. A solid option that keep your prerolls intact all day and night. Humboldt Farms is committed to nurturing and inspiring the mind, body and soul with 100% sustainable, sun-grown flowers in beautiful Humboldt County, California. Each pack contains four prerolls with each containing 0.5g of flower.</span></span></p><p><span style=\"\"><span style=\"\"><br></span></span></p><p><br></p>",
+            "quantity": "1008.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Preroll Hybrid 4-Pack - Blue Cookies 4Pack THC: 16.4%CBD: 0.04%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 12.5,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222628,
+                "name": "Preroll Hybrid 4-Pack"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 14,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9689,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Hybrid",
+            "modified": "2020-09-29T19:03:28.973446-06:00",
+            "sub_category": 25,
+            "has_deals_eligible_children": false,
+            "discount_percent": 10.714285714285714,
+            "base_units_per_unit": "1.000000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 393495,
+            "created_on": "2020-07-14T11:30:28.203860-06:00",
+            "last_edit": "2021-03-10T15:50:28.230442-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Blue Cookies Single Preroll THC: 16.4%CBD: 0.04%",
+            "sku": "4fc3a119de2d9dddd013",
+            "description": "<p><span style=\"\"><span style=\"\">We use the same flowers found in our jars to make our prerolls: no shake, trim or sugar leaf. We craft our prerolls with the same care as the cones you would roll in your home. Great taste with a fluid burn. Nothing else is acceptable. Humboldt Farms is committed to nurturing and inspiring the mind, body and soul with 100% sustainable, sun-grown flowers in beautiful Humboldt County, California. Each pack contains one preroll with 0.6g of flower.</span></span></p><p><span style=\"\"><span style=\"\"><br></span></span></p><p><br></p>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Preroll Hybrid - Blue Cookies Single Preroll THC: 16.4%CBD: 0.04%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 4.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 3.65,
+                "currency": "USD"
+            },
+            "minimum_order": "48.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222724,
+                "name": "Preroll Hybrid"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 14,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": null,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [],
+            "price_schedule_price": {
+                "amount": 4.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Hybrid",
+            "modified": "2020-12-17T17:08:45.509912-07:00",
+            "sub_category": 25,
+            "has_deals_eligible_children": false,
+            "discount_percent": 8.75,
+            "base_units_per_unit": "0.600000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 394209,
+            "created_on": "2020-07-15T12:15:42.899648-06:00",
+            "last_edit": "2020-07-24T17:46:01.164563-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Blue Cookies | THC: 18.2% CBD: 0.03%",
+            "sku": "4f54a3c7b49d15b334a3",
+            "description": "<p></p><p><span style=\"\"><span style=\"\">Experience the cosmic dance of day and night. Each Humboldt Farms hybrid strain offers a unique balance of indica and sativa, with varying degrees of mind and body relaxation. Humboldt County is known for its rich cannabis history, and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California.  Weight ⅛ oz.</span></span></p>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Premium Hybrid Flower - Blue Cookies | THC: 18.2% CBD: 0.03%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "1.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222680,
+                "name": "Premium Hybrid Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                1017
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Hybrid",
+            "modified": "2020-07-24T17:46:01.176053-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 569751,
+            "created_on": "2021-03-10T16:05:09.412300-07:00",
+            "last_edit": "2021-04-12T11:41:28.270145-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Blue Dream, Premium Sativa Flower, Eighth",
+            "sku": "42f3ab0f2dd64f53b63e",
+            "description": "<p style=\"\">With a sweetness descended from its Blueberry parent, the legendary Blue Dream gently invigorates and inspires. Popular for soothing anxiety and boosting motivation.</p><p style=\"\">Sun-ripened and organically grown on small family farms in Humboldt County, Humboldt Farms' Premium Flower is in a class of its own. The hand-selected flowers dazzle the senses and offer maximum potency due to Humboldt Farms' cultivation of cutting edge strains with robust genetics. Experience the highest. 1/8 oz.</p><h5><br></h5>",
+            "quantity": "48.0000",
+            "reserved_qty": "48.0000",
+            "display_name": "Blue Dream, Premium Sativa Flower, Eighth",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 30.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 360.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 300.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Unavailable",
+            "display_listing_state": "Unavailable",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": 3,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9618,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0.0,
+            "children_count": 0,
+            "strains": [
+                4
+            ],
+            "price_schedule_price": {
+                "amount": 360.0,
+                "currency": "USD"
+            },
+            "image_count": 4,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": [],
+            "strain_classification_display": "Sativa",
+            "modified": "2021-04-12T11:41:09.761569-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 16.666666666666668,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 518847,
+            "created_on": "2021-01-08T11:50:57.654183-07:00",
+            "last_edit": "2021-03-10T15:45:42.104159-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Blue Dream | THC: 17.9% CBD: 0.04%",
+            "sku": "4defa3407d0de3d026ce",
+            "description": "<h1><span style=\"\"><span style=\"\">Illuminate with the sunrise. Sativa strains from Humboldt Farms awaken the mind and invigorate your senses, making them a perfect choice for boosting creativity and productivity throughout your day. Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California. Weight ⅛ oz.</span></span></h1>",
+            "quantity": "515.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Sativa Flower - Blue Dream | THC: 17.9% CBD: 0.04%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 11.75,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222701,
+                "name": "Classic Sativa Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                186
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2021-01-08T11:50:57.654210-07:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 16.071428571428573,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 314869,
+            "created_on": "2020-03-04T17:00:53.669959-07:00",
+            "last_edit": "2020-07-24T17:54:02.118074-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Blue Dream @ THC: 22.8%CBD: 0.03%",
+            "sku": "4c9a96de58981f4d6f9e",
+            "description": "<h1><span style=\"\"><span style=\"\">Illuminate with the sunrise. Sativa strains from Humboldt Farms awaken the mind and invigorate your senses, making them a perfect choice for boosting creativity and productivity throughout your day. Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California. Weight ⅛ oz.</span></span></h1>",
+            "quantity": "0.0000",
+            "reserved_qty": "240.0000",
+            "display_name": "Classic Sativa Flower - Blue Dream @ THC: 22.8%CBD: 0.03%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222701,
+                "name": "Classic Sativa Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 4,
+                "value": "0.12500",
+                "name": "Eight",
+                "label": "1/8"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                186
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2020-07-12T11:56:30.204171-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 314908,
+            "created_on": "2020-03-04T17:47:08.102950-07:00",
+            "last_edit": "2020-07-14T19:47:18.248651-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Cake Breath @ THC: 25.5%CBD: 0.04%",
+            "sku": "488d9ceef6cd95722910",
+            "description": "<p><span style=\"\"><span style=\"\">Experience the cosmic dance of day and night. Each Humboldt Farms hybrid strain offers a unique balance of indica and sativa, with varying degrees of mind and body relaxation. Sun-ripened and organically grown on small family farms in Humboldt County, premium flowers from Humboldt Farms are in a class of their own. The hand-selected buds dazzle the senses and offer maximum potency due to their cultivation of cutting edge strains with robust genetics. Humboldt Farms’ exceptional Premium Flower tastes delicious both on the inhale and exhale, with crystals that glisten and bouquets that fill the room. Weight ⅛ oz.</span></span></p>",
+            "quantity": "0.0000",
+            "reserved_qty": "96.0000",
+            "display_name": "Premium Hybrid Flower - Cake Breath @ THC: 25.5%CBD: 0.04%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 16.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "1.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222669,
+                "name": "Premium Hybrid Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9618,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                904
+            ],
+            "price_schedule_price": {
+                "amount": 16.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Hybrid",
+            "modified": "2020-07-12T11:56:30.335162-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 315315,
+            "created_on": "2020-03-05T12:00:14.324097-07:00",
+            "last_edit": "2021-03-10T15:43:28.230626-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Cannatonic Total Cannabinoids: 75.37%",
+            "sku": "44cda117f937704a670c",
+            "description": "Popular for relaxation, pain relief, and mood elevation. Our full-spectrum high terpene extract vaporizer cartridges are made from premium Humboldt-grown cannabis, flash-frozen immediately after harvest to preserve the integrity, flavor, and terpene profiles of each strain for an unrivaled experience",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "CBD .5g Live Resin Cart - Cannatonic Total Cannabinoids: 75.37%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 36.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 315314,
+                "name": "CBD .5g Live Resin Cart"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Gram",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 2,
+                "value": "0.50000",
+                "name": "Half",
+                "label": "1/2"
+            },
+            "category": 1,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 12402,
+            "manufacturer": 7909,
+            "strain_classification": "11-cbd",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [],
+            "price_schedule_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "1:1 CBD",
+            "modified": "2020-08-17T14:16:20.096603-06:00",
+            "sub_category": 8,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": "0.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 315314,
+            "created_on": "2020-03-05T12:00:14.005386-07:00",
+            "last_edit": "2021-03-10T15:43:28.051698-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "CBD .5g Live Resin Cart",
+            "sku": "HF-LIVE-RESIN-CART-CANNATONIC",
+            "description": "Popular for relaxation, pain relief, and mood elevation. Our full-spectrum high terpene extract vaporizer cartridges are made from premium Humboldt-grown cannabis, flash-frozen immediately after harvest to preserve the integrity, flavor, and terpene profiles of each strain for an unrivaled experience",
+            "quantity": "100.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "CBD .5g Live Resin Cart",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 36.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Gram",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 2,
+                "value": "0.50000",
+                "name": "Half",
+                "label": "1/2"
+            },
+            "category": 1,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 12402,
+            "manufacturer": 7909,
+            "strain_classification": "11-cbd",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                11046
+            ],
+            "price_schedule_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "image_count": 1,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "1:1 CBD",
+            "modified": "2021-03-09T17:57:30.529233-07:00",
+            "sub_category": 8,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": "0.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 504745,
+            "created_on": "2020-12-15T17:01:25.380930-07:00",
+            "last_edit": "2021-03-05T16:50:01.809054-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Cherry Sherbet 1g Live Resin THC: 73.1% CBD: 0.14%",
+            "sku": "4b60b7ea842e2d220faa",
+            "description": "<p>We view the process of creating our premium live resin as a true art form. Cannabis is frozen immediately after harvest, “freezing” the cannabinoids before they degrade. The flavor and aroma of the final product is unmatched, as are the effects</p>",
+            "quantity": "6528.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Indica Live Resin - Cherry Sherbet 1g Live Resin THC: 73.1% CBD: 0.14%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 16.75,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 226736,
+                "name": "Indica Live Resin"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 5,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9635,
+            "manufacturer": 7909,
+            "strain_classification": "indica",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [],
+            "price_schedule_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Indica",
+            "modified": "2021-03-01T16:33:00.272542-07:00",
+            "sub_category": 55,
+            "has_deals_eligible_children": false,
+            "discount_percent": 6.944444444444445,
+            "base_units_per_unit": "1.000000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 566260,
+            "created_on": "2021-03-05T16:48:31.058037-07:00",
+            "last_edit": "2021-04-02T14:52:56.551428-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Cherry Sherbet, Indica Live Resin, 1 gram",
+            "sku": "41a58aa7d26a5d4d5371",
+            "description": "<p>This Sour Sherbet and Cherry Pie cross is an excellent after dinner delight. Known to be a nighttime knockout, getting you relaxed and ready to unwind without putting you straight to sleep.<br></p><p style=\"\"><span><span style=\"\">Cannabis is frozen immediately after harvest, “freezing” the cannabinoids before they degrade. The flavor and aroma of the final product is unmatched, as are the effects.</span></span><br></p>",
+            "quantity": "144.0000",
+            "reserved_qty": "48.0000",
+            "display_name": "Cherry Sherbet, Indica Live Resin, 1 gram",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 36.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 432.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 402.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Available",
+            "display_listing_state": "Available",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 5,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9635,
+            "manufacturer": 7909,
+            "strain_classification": "indica",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 96.0,
+            "children_count": 0,
+            "strains": [
+                12711
+            ],
+            "price_schedule_price": {
+                "amount": 432.0,
+                "currency": "USD"
+            },
+            "image_count": 2,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Indica",
+            "modified": "2021-04-12T11:12:34.269099-06:00",
+            "sub_category": 55,
+            "has_deals_eligible_children": false,
+            "discount_percent": 6.944444444444445,
+            "base_units_per_unit": "1.000000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 400770,
+            "created_on": "2020-07-24T17:11:08.335954-06:00",
+            "last_edit": "2020-07-24T17:41:39.270433-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Cherry Sundae 1g Live Resin",
+            "sku": "4d5b8991a399b30a61b7",
+            "description": "<p>We view the process of creating our premium live resin as a true art form. Cannabis is frozen immediately after harvest, “freezing” the cannabinoids before they degrade. The flavor and aroma of the final product is unmatched, as are the effects</p>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Indica Live Resin - Cherry Sundae 1g Live Resin",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 36.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "1.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 226736,
+                "name": "Indica Live Resin"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 3,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 5,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9635,
+            "manufacturer": 7909,
+            "strain_classification": "indica",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": -357.0,
+            "children_count": 0,
+            "strains": [],
+            "price_schedule_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Indica",
+            "modified": "2020-07-24T17:41:39.280548-06:00",
+            "sub_category": 55,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 400810,
+            "created_on": "2020-07-24T19:05:27.579852-06:00",
+            "last_edit": "2021-03-10T15:45:56.444483-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Chocolate Hashberry Live Rosin Infused Preroll THC: 19.0% CBD: 0.0%",
+            "sku": "4b29bc8d4c82c6d58f75",
+            "description": "<span><p style=\"\"><span style=\"\">GMO Cookies Flower with Sundae Driver Live Rosin Infused Cone</span></p><p style=\"\"><br></p><p style=\"\"><span style=\"\">Popular for its ability to relieve pain without the couch lock, our sweet and pungent GMO Cookies strain have been paired by the experts at Doc Green’s with Sundae Driver live rosin. With notes of chocolate and strawberry, these prerolls make for a delightfully relaxing afternoon and a stress-free Sunday stroll</span></p><span style=\"\"><br></span></span>",
+            "quantity": "1224.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Hybrid Live Rosin Preroll - Chocolate Hashberry Live Rosin Infused Preroll THC: 19.0% CBD: 0.0%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 13.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 6.5,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 5.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 400593,
+                "name": "Hybrid Live Rosin Preroll"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 14,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9619,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [],
+            "price_schedule_price": {
+                "amount": 6.5,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Hybrid",
+            "modified": "2020-08-17T14:16:20.957215-06:00",
+            "sub_category": 24,
+            "has_deals_eligible_children": false,
+            "discount_percent": 23.076923076923077,
+            "base_units_per_unit": "0.600000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 222689,
+            "created_on": "2019-08-19T17:05:45.972416-06:00",
+            "last_edit": "2020-07-14T20:10:06.728631-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Classic CBD Flower",
+            "sku": "4a5c9c2de1c6c8764288",
+            "description": "<h3><span style=\"\"><span style=\"\">Humboldt County is known for its rich cannabis history, and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California. Weight ⅛ oz.</span></span></h3>",
+            "quantity": "0.0000",
+            "reserved_qty": "20.0000",
+            "display_name": "Classic CBD Flower",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "1.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "high-cbd",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                741
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 1,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "High CBD",
+            "modified": "2020-03-04T16:46:16.461468-07:00",
+            "sub_category": 27,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 336171,
+            "created_on": "2020-04-06T16:26:27.605584-06:00",
+            "last_edit": "2020-07-14T20:10:21.465249-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Classic Cherry Pie THC: 19.0%CBD: 0.02%",
+            "sku": "41249c07b31971a6a455",
+            "description": "<p></p><p><span style=\"\"><span style=\"\">Experience the cosmic dance of day and night. Each Humboldt Farms hybrid strain offers a unique balance of indica and sativa, with varying degrees of mind and body relaxation. Humboldt County is known for its rich cannabis history, and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California.  Weight ⅛ oz.</span></span></p>",
+            "quantity": "0.0000",
+            "reserved_qty": "24.0000",
+            "display_name": "Premium Hybrid Flower - Classic Cherry Pie THC: 19.0%CBD: 0.02%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222680,
+                "name": "Premium Hybrid Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                1017
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Hybrid",
+            "modified": "2020-07-12T11:56:30.480848-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 470279,
+            "created_on": "2020-11-09T14:31:09.303891-07:00",
+            "last_edit": "2021-03-10T15:45:30.190039-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Classic Dogwalker OG Eighth | THC: 17.5% CBD: 0.04%",
+            "sku": "4c4585e64d7b155b6eb7",
+            "description": "<p></p><p></p><h1><span style=\"\">Humboldt County is known as “the place where they grow the Best Cannabis in the World“ and our Classic Flowers are no exception. Nothing is more important to us than living up to the Humboldt tradition and we’re proud of every bud that goes into our jars. Our Classic Flowers come in the favorite strains that we all know and love. </span><br></h1>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Hybrid Flower - Classic Dogwalker OG Eighth | THC: 17.5% CBD: 0.04%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 28.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 12.75,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 470277,
+                "name": "Classic Hybrid Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                129
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Hybrid",
+            "modified": "2021-01-08T11:45:24.926085-07:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 8.928571428571429,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 470278,
+            "created_on": "2020-11-09T14:31:09.206906-07:00",
+            "last_edit": "2021-03-10T15:45:30.251711-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Classic GG Eighth | THC: 17.3% CBD: 0.04%",
+            "sku": "495f9d73887c6edab2f6",
+            "description": "<p></p><p></p><h1><span style=\"\">Humboldt County is known as “the place where they grow the Best Cannabis in the World“ and our Classic Flowers are no exception. Nothing is more important to us than living up to the Humboldt tradition and we’re proud of every bud that goes into our jars. Our Classic Flowers come in the favorite strains that we all know and love. </span><br></h1>",
+            "quantity": "1681.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Hybrid Flower - Classic GG Eighth | THC: 17.3% CBD: 0.04%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 12.75,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 470277,
+                "name": "Classic Hybrid Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                129
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Hybrid",
+            "modified": "2020-11-09T14:31:09.206933-07:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 8.928571428571429,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 470277,
+            "created_on": "2020-11-09T14:31:08.888373-07:00",
+            "last_edit": "2021-03-10T15:45:30.122794-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Classic Hybrid Flower",
+            "sku": "4b3b8c73aff031ee70e1",
+            "description": "<p></p><p></p><h1><span style=\"\">Humboldt County is known as “the place where they grow the Best Cannabis in the World“ and our Classic Flowers are no exception. Nothing is more important to us than living up to the Humboldt tradition and we’re proud of every bud that goes into our jars. Our Classic Flowers come in the favorite strains that we all know and love. </span><br></h1>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Hybrid Flower",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 11.75,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                774
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 1,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": [],
+            "strain_classification_display": "Hybrid",
+            "modified": "2021-02-18T10:31:44.082757-07:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 16.071428571428573,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 534261,
+            "created_on": "2021-01-27T13:32:23.032007-07:00",
+            "last_edit": "2021-03-10T15:45:36.775667-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Classic Indica Flower",
+            "sku": "412bb0b4aa0a42521647",
+            "description": "<p><span><span style=\"\">Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Weight ⅛ oz.</span></span><br></p>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Indica Flower",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "indica",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0.0,
+            "children_count": 0,
+            "strains": [
+                9959
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 1,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Indica",
+            "modified": "2021-01-27T13:33:39.868126-07:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 222710,
+            "created_on": "2019-08-19T17:12:49.040674-06:00",
+            "last_edit": "2020-11-09T14:39:27.381775-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Classic Indica Flower",
+            "sku": "4b8789ba3e1333f30e38",
+            "description": "<p></p><p></p><h1><span style=\"\"><span style=\"\">Be still with the moonlight. Indica strains from Humboldt Farms will help relax the body and calm the mind as you find stillness after a long day. Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California. Weight ⅛ oz.</span></span></h1>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Indica Flower",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "1.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "indica",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                129
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 1,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Indica",
+            "modified": "2020-07-24T19:06:02.140430-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 505725,
+            "created_on": "2020-12-16T14:06:08.150633-07:00",
+            "last_edit": "2021-03-10T15:45:42.165580-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Classic Jack Herer Eighth | THC: 17.4% CBD: 0.04%",
+            "sku": "49a58b0d30e24a8d0cab",
+            "description": "<h1><span style=\"\"><span style=\"\">Illuminate with the sunrise. Sativa strains from Humboldt Farms awaken the mind and invigorate your senses, making them a perfect choice for boosting creativity and productivity throughout your day. Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California. Weight ⅛ oz.</span></span></h1>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Sativa Flower - Classic Jack Herer Eighth | THC: 17.4% CBD: 0.04%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 12.75,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222701,
+                "name": "Classic Sativa Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                186
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2021-01-08T11:46:28.645859-07:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 8.928571428571429,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 470265,
+            "created_on": "2020-11-09T14:21:37.999031-07:00",
+            "last_edit": "2021-03-10T15:45:42.224142-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Classic Orangeade Eighth | THC: 19.1% CBD: 0.04%",
+            "sku": "4cb5b5b8a491cffad7cb",
+            "description": "<h1><span style=\"\"><span style=\"\">Illuminate with the sunrise. Sativa strains from Humboldt Farms awaken the mind and invigorate your senses, making them a perfect choice for boosting creativity and productivity throughout your day. Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California. Weight ⅛ oz.</span></span></h1>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Sativa Flower - Classic Orangeade Eighth | THC: 19.1% CBD: 0.04%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 28.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222701,
+                "name": "Classic Sativa Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                186
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2020-11-09T14:21:37.999058-07:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 552066,
+            "created_on": "2021-02-18T10:10:45.598963-07:00",
+            "last_edit": "2021-03-10T15:45:42.282085-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Classic Orangutan Eighth  | THC: 17.2% CBD: 0.07%",
+            "sku": "42dcb94cb724b73742aa",
+            "description": "<h1><span style=\"\"><span style=\"\">Illuminate with the sunrise. Sativa strains from Humboldt Farms awaken the mind and invigorate your senses, making them a perfect choice for boosting creativity and productivity throughout your day. Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California. Weight ⅛ oz.</span></span></h1>",
+            "quantity": "2498.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Sativa Flower - Classic Orangutan Eighth  | THC: 17.2% CBD: 0.07%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 11.75,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222701,
+                "name": "Classic Sativa Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                594,
+                186
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2021-02-18T10:10:45.598984-07:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 16.071428571428573,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 222701,
+            "created_on": "2019-08-19T17:08:58.433480-06:00",
+            "last_edit": "2021-03-10T15:45:42.033108-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Classic Sativa Flower",
+            "sku": "4266a0366839d8261a9f",
+            "description": "<h1><span style=\"\"><span style=\"\">Illuminate with the sunrise. Sativa strains from Humboldt Farms awaken the mind and invigorate your senses, making them a perfect choice for boosting creativity and productivity throughout your day. Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California. Weight ⅛ oz.</span></span></h1>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Sativa Flower",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "1.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                594,
+                186
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 1,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2021-02-18T10:10:45.219707-07:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 552102,
+            "created_on": "2021-02-18T10:31:44.306384-07:00",
+            "last_edit": "2021-03-05T16:39:57.223594-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Classic Wedding Crasher Eighth | THC: 19.5% CBD: 0.06%",
+            "sku": "4bb5b9622d30f89518c4",
+            "description": "<p></p><p></p><h1><span style=\"\">Humboldt County is known as “the place where they grow the Best Cannabis in the World“ and our Classic Flowers are no exception. Nothing is more important to us than living up to the Humboldt tradition and we’re proud of every bud that goes into our jars. Our Classic Flowers come in the favorite strains that we all know and love. </span><br></h1>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Hybrid Flower - Classic Wedding Crasher Eighth | THC: 19.5% CBD: 0.06%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 11.75,
+                "currency": "USD"
+            },
+            "minimum_order": "25.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 470277,
+                "name": "Classic Hybrid Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                774
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Hybrid",
+            "modified": "2021-02-18T10:31:44.306412-07:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 16.071428571428573,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 314868,
+            "created_on": "2020-03-04T17:00:53.603970-07:00",
+            "last_edit": "2020-07-24T14:44:03.380672-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Clementine @ THC: 15.9%CBD: 0.04%",
+            "sku": "4f8e86f264bca0705a1e",
+            "description": "<h1><span style=\"\"><span style=\"\">Illuminate with the sunrise. Sativa strains from Humboldt Farms awaken the mind and invigorate your senses, making them a perfect choice for boosting creativity and productivity throughout your day. Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California. Weight ⅛ oz.</span></span></h1>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Sativa Flower - Clementine @ THC: 15.9%CBD: 0.04%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222701,
+                "name": "Classic Sativa Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 4,
+                "value": "0.12500",
+                "name": "Eight",
+                "label": "1/8"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                186
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2020-03-04T17:00:53.603997-07:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 590908,
+            "created_on": "2021-04-01T16:59:14.965340-06:00",
+            "last_edit": "2021-04-09T14:58:37.454988-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Cookies, Premium Hybrid Flower, Eighth",
+            "sku": "42d7ba258a47c1bfd29e",
+            "description": "<p style=\"\"><span style=\"\">With its distinctive, sugary aroma and taste, the delicious and long-lasting Cookies features the best of both indica and sativa. Popular for chronic stress.</span><br></p><p style=\"\">Sun-ripened and organically grown on small family farms in Humboldt County, Humboldt Farms' Premium Flower is in a class of its own. The hand-selected flowers dazzle the senses and offer maximum potency due to Humboldt Farms' cultivation of cutting edge strains with robust genetics. Experience the highest. 1/8 oz.<br></p>",
+            "quantity": "1920.0000",
+            "reserved_qty": "24.0000",
+            "display_name": "Cookies, Premium Hybrid Flower, Eighth",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 30.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 360.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 300.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Available",
+            "display_listing_state": "Available",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": 3,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9618,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 1896.0,
+            "children_count": 0,
+            "strains": [
+                777
+            ],
+            "price_schedule_price": {
+                "amount": 360.0,
+                "currency": "USD"
+            },
+            "image_count": 4,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": [],
+            "strain_classification_display": "Hybrid",
+            "modified": "2021-04-12T07:38:14.838983-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 16.666666666666668,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 570768,
+            "created_on": "2021-03-11T13:40:40.622200-07:00",
+            "last_edit": "2021-04-12T11:41:33.492601-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Doctors Orders, Classic CBD Flower, Eighth",
+            "sku": "44a9988d1b654bb9e1c8",
+            "description": "<p>This therapeutic CBD strain is earthy and smooth. With almost equal parts CBD and THC, you can enjoy the overall effect of cannabis while receiving the myriad of beneficial cannabinoids found in CBD dominant strains.<br></p><p>Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Weight ⅛ oz.<br></p>",
+            "quantity": "48.0000",
+            "reserved_qty": "48.0000",
+            "display_name": "Doctors Orders, Classic CBD Flower, Eighth",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 26.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 324.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 282.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Unavailable",
+            "display_listing_state": "Unavailable",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": 3,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "high-cbd",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0.0,
+            "children_count": 0,
+            "strains": [
+                9253
+            ],
+            "price_schedule_price": {
+                "amount": 324.0,
+                "currency": "USD"
+            },
+            "image_count": 2,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": [],
+            "strain_classification_display": "High CBD",
+            "modified": "2021-04-12T11:41:09.602064-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 12.962962962962964,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 592077,
+            "created_on": "2021-04-02T14:54:59.348441-06:00",
+            "last_edit": "2021-04-05T11:22:23.772471-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Dog Walker OG, Classic Hybrid Flower, Eighth",
+            "sku": "4105a2ed2dd19cbe4435",
+            "description": "<p><span style=\"\">Like it’s popular Chemdawg cousin, this OG strain is strong and skunky. Known for its euphoric high and its strong pain relieving effects, it has a super pungent scent, treasured by true OG connoisseurs.</span><br></p><p>Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Weight ⅛ oz.</p>",
+            "quantity": "2784.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Dog Walker OG, Classic Hybrid Flower, Eighth",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 26.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 324.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 240.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Available",
+            "display_listing_state": "Available",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": 3,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 2784.0,
+            "children_count": 0,
+            "strains": [
+                356
+            ],
+            "price_schedule_price": {
+                "amount": 324.0,
+                "currency": "USD"
+            },
+            "image_count": 1,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": [],
+            "strain_classification_display": "Hybrid",
+            "modified": "2021-04-05T11:22:23.840757-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 25.925925925925927,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 592064,
+            "created_on": "2021-04-02T14:50:15.656309-06:00",
+            "last_edit": "2021-04-05T11:26:04.035438-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Dog Walker OG, Premium Hybrid Flower, Eighth",
+            "sku": "487689bc4e55795e08cb",
+            "description": "<p class=\"\"><span style=\"\">Like it’s popular Chemdawg cousin, this OG strain is strong and skunky. Known for its euphoric high and its strong pain relieving effects, it has a super pungent scent, treasured by true OG connoisseurs.</span><br></p><p class=\"\">Sun-ripened and organically grown on small family farms in Humboldt County, Humboldt Farms' Premium Flower is in a class of its own. The hand-selected flowers dazzle the senses and offer maximum potency due to Humboldt Farms' cultivation of cutting edge strains with robust genetics. Experience the highest. 1/8 oz.</p>",
+            "quantity": "2280.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Dog Walker OG, Premium Hybrid Flower, Eighth",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 30.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 360.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 300.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Available",
+            "display_listing_state": "Available",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": 3,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9618,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 2280.0,
+            "children_count": 0,
+            "strains": [
+                356
+            ],
+            "price_schedule_price": {
+                "amount": 360.0,
+                "currency": "USD"
+            },
+            "image_count": 1,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": [],
+            "strain_classification_display": "Hybrid",
+            "modified": "2021-04-12T07:38:04.952609-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 16.666666666666668,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 588106,
+            "created_on": "2021-03-30T11:42:04.343550-06:00",
+            "last_edit": "2021-04-08T19:16:53.323588-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Double Up Mintz, Premium Hybrid Flower, Eighth",
+            "sku": "4093852e014a5342ffcb",
+            "description": "<p style=\"\"><span style=\"\">An inviting blend of cookies and mint mark this flavorful favorite, but the soaring THC will leave you ready to double down and double up with a bit of blissful relaxation.</span><br></p><p style=\"\">Sun-ripened and organically grown on small family farms in Humboldt County, Humboldt Farms' Premium Flower is in a class of its own. The hand-selected flowers dazzle the senses and offer maximum potency due to Humboldt Farms' cultivation of cutting edge strains with robust genetics. Experience the highest. 1/8 oz. </p><p><span style=\"\"></span><br></p>",
+            "quantity": "70.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Double Up Mintz, Premium Hybrid Flower, Eighth",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 30.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 360.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 300.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": "BRAND NEW STRAIN: Double Up on THC with this Minty 31.3% Premium Flower!",
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Unavailable",
+            "display_listing_state": "Unavailable",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": 3,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9618,
+            "manufacturer": 7909,
+            "strain_classification": "hybrid",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 70.0,
+            "children_count": 0,
+            "strains": [
+                13307
+            ],
+            "price_schedule_price": {
+                "amount": 360.0,
+                "currency": "USD"
+            },
+            "image_count": 3,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": [],
+            "strain_classification_display": "Hybrid",
+            "modified": "2021-04-12T04:31:05.522574-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 16.666666666666668,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 566291,
+            "created_on": "2021-03-05T17:42:23.626009-07:00",
+            "last_edit": "2021-04-02T14:31:03.063456-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Dream Queen, Sativa Pre-Roll, 4 Pack",
+            "sku": "40b1a2c5f637467c0de6",
+            "description": "<p><span style=\"\">This Blue Dream and Space Queen cross is bound to put you in a good mood, floating through a field of sunshine and rainbows in no time. You may not get much done with this lightly sedating sativa, but you are likely to feel pretty great about whatever’s happening.</span></p><p>Humboldt Farms uses the same sun-ripened, sustainably grown Humboldt County flower found in their jars to make their prerolls. Never shake or trim. <span style=\"\">Each pack contains 4 prerolls. Each preroll contains 0.6g of flower.</span></p><p><br></p>",
+            "quantity": "3792.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Dream Queen, Sativa Pre-Roll, 4 Pack",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 28.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 336.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 288.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Available",
+            "display_listing_state": "Available",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 14,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9689,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 3792.0,
+            "children_count": 0,
+            "strains": [
+                763
+            ],
+            "price_schedule_price": {
+                "amount": 336.0,
+                "currency": "USD"
+            },
+            "image_count": 1,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2021-04-12T07:38:02.709320-06:00",
+            "sub_category": 25,
+            "has_deals_eligible_children": false,
+            "discount_percent": 28.571428571428573,
+            "base_units_per_unit": "2.400000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 566290,
+            "created_on": "2021-03-05T17:29:55.709106-07:00",
+            "last_edit": "2021-04-02T16:23:30.961193-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Dream Queen, Sativa Pre-Roll, Single",
+            "sku": "492883586d4ee8598443",
+            "description": "<p><span><span style=\"\">This Blue Dream and Space Queen cross is bound to put you in a good mood, floating through a field of sunshine and rainbows in no time. You may not get much done with this lightly sedating sativa, but you are likely to feel pretty great about whatever’s happening.</span></span></p><p>Humboldt Farms uses the same sun-ripened, sustainably grown Humboldt County flower found in their jars to make their prerolls. Never shake or trim. Contains a single preroll with 0.6g of flower.</p><p><br></p>",
+            "quantity": "408.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Dream Queen, Sativa Pre-Roll, Single",
+            "unit_multiplier": 48,
+            "retail_price": {
+                "amount": 7.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 168.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 132.0,
+                "currency": "USD"
+            },
+            "minimum_order": "48.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Available",
+            "display_listing_state": "Available",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 14,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9619,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 408.0,
+            "children_count": 0,
+            "strains": [
+                763
+            ],
+            "price_schedule_price": {
+                "amount": 168.0,
+                "currency": "USD"
+            },
+            "image_count": 1,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2021-04-12T07:38:02.453585-06:00",
+            "sub_category": 25,
+            "has_deals_eligible_children": false,
+            "discount_percent": 21.428571428571427,
+            "base_units_per_unit": "0.600000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 560602,
+            "created_on": "2021-02-26T18:25:34.953613-07:00",
+            "last_edit": "2021-03-10T15:50:51.791854-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Dream Queen THC: 18.1 % CBD: 0%",
+            "sku": "4b74bc985d8558073acb",
+            "description": "<p><span style=\"\"><span style=\"\">Our incredible prerolls come in a handy, reusable tin that fits easily in your pocket. A solid option that keep your prerolls intact all day and night. Humboldt Farms is committed to nurturing and inspiring the mind, body and soul with 100% sustainable, sun-grown flowers in beautiful Humboldt County, California. Each pack contains four prerolls with each containing 0.5g of flower</span></span></p>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Preroll Sativa 4-Pack - Dream Queen THC: 18.1 % CBD: 0%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 12.5,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222646,
+                "name": "Preroll Sativa 4-Pack"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 14,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9689,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2021-02-26T18:25:34.953638-07:00",
+            "sub_category": 25,
+            "has_deals_eligible_children": false,
+            "discount_percent": 10.714285714285714,
+            "base_units_per_unit": "2.400000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 563210,
+            "created_on": "2021-03-02T15:57:05.324893-07:00",
+            "last_edit": "2021-03-10T15:50:47.496789-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Dream Queen THC: 18.1% | CBD: 0%",
+            "sku": "46148377bc20b8c4ca9e",
+            "description": "<p><span style=\"\"><span style=\"\">We use the same flowers found in our jars to make our prerolls: no shake, trim or sugar leaf. We craft our prerolls with the same care as the cones you would roll in your home. Great taste with a fluid burn. Nothing else is acceptable. Humboldt Farms is committed to nurturing and inspiring the mind, body and soul with 100% sustainable, sun-grown flowers in beautiful Humboldt County, California. Each pack contains one preroll with 0.6g of flower</span></span></p>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Preroll Sativa - Dream Queen THC: 18.1% | CBD: 0%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 4.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 3.65,
+                "currency": "USD"
+            },
+            "minimum_order": "48.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222725,
+                "name": "Preroll Sativa"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 14,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": null,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [],
+            "price_schedule_price": {
+                "amount": 4.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Sativa",
+            "modified": "2021-03-02T15:57:05.324918-07:00",
+            "sub_category": 25,
+            "has_deals_eligible_children": false,
+            "discount_percent": 8.75,
+            "base_units_per_unit": "0.600000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 315302,
+            "created_on": "2020-03-05T11:49:20.780743-07:00",
+            "last_edit": "2021-03-10T15:45:47.523136-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Eagle Scout Train Wreck Total Cannabinoids: 72.48%",
+            "sku": "4a3b813c844e4f2c1758",
+            "description": "Our full-spectrum high terpene extract vaporizer cartridges are made from premium Humboldt-grown cannabis, flash-frozen immediately after harvest to preserve the integrity, flavor, and terpene profiles of each strain for an unrivaled experience. No added distillate",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Hybird .5g Live Resin Cart - Eagle Scout Train Wreck Total Cannabinoids: 72.48%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 315301,
+                "name": "Hybird .5g Live Resin Cart"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Gram",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 2,
+                "value": "0.50000",
+                "name": "Half",
+                "label": "1/2"
+            },
+            "category": 1,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 12402,
+            "manufacturer": 7909,
+            "strain_classification": "na",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                1329
+            ],
+            "price_schedule_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "N/A",
+            "modified": "2020-08-17T14:16:20.691192-06:00",
+            "sub_category": 8,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": "0.500000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 400783,
+            "created_on": "2020-07-24T17:42:57.780365-06:00",
+            "last_edit": "2021-03-10T15:46:03.104122-07:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Forbidden Fruit 1g Live Resin THC: 81.0%CBD: 0.08%",
+            "sku": "489eb747e117796cc930",
+            "description": "<p>We view the process of creating our premium live resin as a true art form. Cannabis is frozen immediately after harvest, “freezing” the cannabinoids before they degrade. The flavor and aroma of the final product is unmatched, as are the effects</p>",
+            "quantity": "1368.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Indica Live Resin - Forbidden Fruit 1g Live Resin THC: 81.0%CBD: 0.08%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 36.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 16.75,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 226736,
+                "name": "Indica Live Resin"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 5,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9635,
+            "manufacturer": 7909,
+            "strain_classification": "indica",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [],
+            "price_schedule_price": {
+                "amount": 18.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Indica",
+            "modified": "2021-01-03T20:42:10.254816-07:00",
+            "sub_category": 55,
+            "has_deals_eligible_children": false,
+            "discount_percent": 6.944444444444445,
+            "base_units_per_unit": "1.000000000000000",
+            "external_ids": {}
+        },
+        {
+            "id": 336176,
+            "created_on": "2020-04-06T16:31:48.531553-06:00",
+            "last_edit": "2020-07-14T20:12:43.552848-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Forbidden Fruit @ THC: 17.3%CBD: 0.02%",
+            "sku": "436682c6b36bf8a0bf64",
+            "description": "<p></p><p></p><h1><span style=\"\"><span style=\"\">Be still with the moonlight. Indica strains from Humboldt Farms will help relax the body and calm the mind as you find stillness after a long day. Humboldt County is known for its rich cannabis history and Humboldt Farms takes pride in every bud that goes into their jars of Classic Flower. Look for the strain on each jar. Humboldt Farms is committed to nurturing and inspiring the mind, body, and soul with 100% sustainable, sun-grown flowers from beautiful Humboldt County, California. Weight ⅛ oz.</span></span></h1>",
+            "quantity": "0.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Classic Indica Flower - Forbidden Fruit @ THC: 17.3%CBD: 0.02%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222710,
+                "name": "Classic Indica Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9688,
+            "manufacturer": 7909,
+            "strain_classification": "indica",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                129
+            ],
+            "price_schedule_price": {
+                "amount": 14.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Indica",
+            "modified": "2020-04-06T16:31:48.531579-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 314912,
+            "created_on": "2020-03-04T17:54:05.506092-07:00",
+            "last_edit": "2020-07-14T20:09:38.921412-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Forbidden Fruit | THC: 25.5% CBD: 0.03%",
+            "sku": "436d86d5bb454acc858c",
+            "description": "Be still with the moonlight. Indica strains from Humboldt Farms will help relax the body and calm the mind as you find stillness after a long day. Sun-ripened and organically grown on small family farms in Humboldt County, premium flowers from Humboldt Farms are in a class of their own. The hand-selected buds dazzle the senses and offer maximum potency due to their cultivation of cutting edge strains with robust genetics. Humboldt Farms’ exceptional Premium Flower tastes delicious both on the inhale and exhale, with crystals that glisten and bouquets that fill the room. Weight ⅛ oz.",
+            "quantity": "0.0000",
+            "reserved_qty": "240.0000",
+            "display_name": "Premium Indica Flower - Forbidden Fruit | THC: 25.5% CBD: 0.03%",
+            "unit_multiplier": 1,
+            "retail_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 16.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 0.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": {
+                "id": 222615,
+                "name": "Premium Indica Flower"
+            },
+            "listing_state": "Archived",
+            "display_listing_state": "Archived",
+            "inventory_management": 2,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": null,
+            "unit_denomination": {
+                "id": 4,
+                "value": "0.12500",
+                "name": "Eight",
+                "label": "1/8"
+            },
+            "category": 6,
+            "grow_type": null,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9618,
+            "manufacturer": 7909,
+            "strain_classification": "indica",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 0,
+            "children_count": 0,
+            "strains": [
+                2084
+            ],
+            "price_schedule_price": {
+                "amount": 16.0,
+                "currency": "USD"
+            },
+            "image_count": 0,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": null,
+            "strain_classification_display": "Indica",
+            "modified": "2020-07-12T11:56:30.640030-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 0,
+            "base_units_per_unit": null,
+            "external_ids": {}
+        },
+        {
+            "id": 573688,
+            "created_on": "2021-03-15T17:43:04.569688-06:00",
+            "last_edit": "2021-04-02T16:03:48.391471-06:00",
+            "drop_date": null,
+            "dropped": null,
+            "name": "Green Dream, Premium Sativa Flower, Eighth",
+            "sku": "4bf687f227a15162dcba",
+            "description": "<p style=\"\"><span style=\"\">This upbeat flower is the love child of Blue Dream and Green Crack. It is known to be uplifting, inspiring, and the perfect choice for a productive day. With a pen and paper nearby, this daydream believer may lead you to many great ideas!</span><br></p><p style=\"\">Sun-ripened and organically grown on small family farms in Humboldt County, Humboldt Farms' Premium Flower is in a class of its own. The hand-selected flowers dazzle the senses and offer maximum potency due to Humboldt Farms' cultivation of cutting edge strains with robust genetics. Experience the highest. 1/8 oz.</p><h5><br></h5>",
+            "quantity": "2568.0000",
+            "reserved_qty": "0.0000",
+            "display_name": "Green Dream, Premium Sativa Flower, Eighth",
+            "unit_multiplier": 24,
+            "retail_price": {
+                "amount": 30.0,
+                "currency": "USD"
+            },
+            "wholesale_price": {
+                "amount": 360.0,
+                "currency": "USD"
+            },
+            "sale_price": {
+                "amount": 300.0,
+                "currency": "USD"
+            },
+            "minimum_order": "24.0000",
+            "maximum_order": null,
+            "is_medical_line_item": false,
+            "AVAILABLE_FOR_SAMPLES": true,
+            "extern_acct_id": null,
+            "extern_income_acct_id": null,
+            "featured": false,
+            "tagline": null,
+            "featured_on_deals": false,
+            "allow_fractional_quantities": false,
+            "parent": null,
+            "listing_state": "Available",
+            "display_listing_state": "Available",
+            "inventory_management": 1,
+            "unit_of_measure": "Unit",
+            "sell_in_unit_of_measure": "Case",
+            "unit_denomination": {
+                "id": 1,
+                "value": "1.00000",
+                "name": "One",
+                "label": "1"
+            },
+            "category": 6,
+            "grow_type": 3,
+            "seller": 7909,
+            "brand": 1987,
+            "product_line": 9618,
+            "manufacturer": 7909,
+            "strain_classification": "sativa",
+            "license": {
+                "id": 11930,
+                "number": "C11-0000039-LIC",
+                "type": "Combined",
+                "display_type": "Combined",
+                "classification": "Distributor (LIC)"
+            },
+            "available_inventory": 2568.0,
+            "children_count": 0,
+            "strains": [
+                745
+            ],
+            "price_schedule_price": {
+                "amount": 360.0,
+                "currency": "USD"
+            },
+            "image_count": 3,
+            "is_ancillary": false,
+            "s2s_conversion_amount": "1.0000",
+            "extern_sts_ids": [],
+            "strain_classification_display": "Sativa",
+            "modified": "2021-04-12T07:38:05.540394-06:00",
+            "sub_category": 28,
+            "has_deals_eligible_children": false,
+            "discount_percent": 16.666666666666668,
+            "base_units_per_unit": "3.500000000000000",
+            "external_ids": {}
+        }
+    ]
+}
