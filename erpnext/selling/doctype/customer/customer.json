@@ -301,6 +301,7 @@
    "read_only": 1
   },
   {
+   "depends_on": "eval:!doc.__islocal",
    "description": "Select, to make the customer searchable with these fields",
    "fieldname": "primary_address_and_contact_detail",
    "fieldtype": "Section Break",

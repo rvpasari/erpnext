@@ -146,7 +146,9 @@
   "publish_in_hub",
   "hub_category_to_publish",
   "hub_warehouse",
-  "synced_with_hub"
+  "synced_with_hub",
+  "flowkana_details_section",
+  "ivt_id"
  ],
  "fields": [
   {
@@ -1115,6 +1117,16 @@
    "fieldtype": "Table",
    "label": "Shipping Information",
    "options": "Shipping Information"
+  },
+  {
+   "fieldname": "flowkana_details_section",
+   "fieldtype": "Section Break",
+   "label": "Flowkana Details"
+  },
+  {
+   "fieldname": "ivt_id",
+   "fieldtype": "Data",
+   "label": "Inventory ID"
   }
  ],
  "has_web_view": 1,
