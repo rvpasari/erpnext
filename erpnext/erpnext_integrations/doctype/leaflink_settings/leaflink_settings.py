@@ -175,7 +175,7 @@ def sales_order_from_leaflink(**args):
 		except Exception as e:
 			integration_request.update({
 				"status": "Failed",
-				"error": e
+				"error": str(e)
 			})
 			integration_request.save(ignore_permissions=True)
 			return
