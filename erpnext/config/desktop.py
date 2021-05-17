@@ -18,6 +18,15 @@ def get_data():
 			"onboard_present": 1
 		},
 		{
+			"module_name": "Reports",
+			"category": "Modules",
+			"label": _("Reports"),
+			"color": "#3498db",
+			"icon": "octicon octicon-repo",
+			"type": "module",
+			"description": "Accounts, billing, payments, cost center and budgeting."
+		},
+		{
 			"module_name": "Accounts",
 			"category": "Modules",
 			"label": _("Accounting"),
